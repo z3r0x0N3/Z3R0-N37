@@ -392,7 +392,7 @@ def main():
         update_c2_url_on_blockchain(current_url)
 
     # Start the PrimaryNode
-    primary_node = primary_node(handle_client_request=handle_client_request)
+    primary_node = PrimaryNode(handle_client_request=handle_client_request)
     primary_node.start_server()
 
     # Start Flask server
