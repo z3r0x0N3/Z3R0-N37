@@ -1048,8 +1048,11 @@ class PrimaryNode:
                 self.onion_address = onion_addr  # Store PrimaryNode's own onion address
                 self._persist_onion_address(onion_addr)
 
-        self.lock_cycle_thread = threading.Thread(target=self._lock_cycle_worker, daemon=True)
-        self.lock_cycle_thread.start()
+        if self.auto_lock_cycle:
+            self.lock_cycle_thread = threading.Thread(target=self._lock_cycle_worker, daemon=True)
+            self.lock_cycle_thread.start()
+        else:
+            self.lock_cycle_thread = None
         print(f"PrimaryNode server started on {self.host}:{self.port}")
 
     def stop_server(self):
