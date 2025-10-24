@@ -1,5 +1,5 @@
 
-from src.crypto.utils import digital_shift_cipher, hash_data
+from ghost_comm_lib.crypto.utils import digital_shift_cipher, hash_data
 
 class ProxyChain:
     """Manages the chain of proxy nodes."""
