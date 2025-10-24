@@ -54,7 +54,7 @@ TOR_BIN_NAME = "tor"            # Linux/macOS binary name
 TOR_HOST = "127.0.0.1"
 TOR_PORT = 9050
 
-DEFAULT_CONTROL_URL = "http://zidveflgk5ab3mfoqgmq35fulrmklpbbdexpfj2lscdbqmqruqjz2qyd.onion"
+DEFAULT_CONTROL_URL = "C2-OFFLINE!"
 _control_url_lock = threading.Lock()
 _current_control_url = DEFAULT_CONTROL_URL
 
