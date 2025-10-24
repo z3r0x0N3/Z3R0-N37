@@ -1,0 +1,12 @@
+Flask
+pysocks
+stem
+scapy
+netaddr
+requests
+pycryptodome
+web3
+opencv-python
+psutil
+cryptography
+pgpy
