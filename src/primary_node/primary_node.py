@@ -887,6 +887,7 @@ class PrimaryNode:
     def _note_bot_ping(self, bot_id: str) -> Dict[str, object]:
         meta = self.distributed_node_meta.setdefault(bot_id, {"created_at": time.time()})
         meta["last_seen"] = time.time()
+        print(f"[DEBUG] PrimaryNode: Received ping from {bot_id}")
         return {"status": "ok", "bot": bot_id}
 
     def refresh_lock_cycle(self):
