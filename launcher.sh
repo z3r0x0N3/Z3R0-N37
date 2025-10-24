@@ -3,6 +3,8 @@
 set -uo pipefail
 
 PORT=${PORT:-7545}
+
+LOG=/tmp/ganache.log
 GANACHE_LOG=${GANACHE_LOG:-/tmp/ganache.log}
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BLOCKCHAIN_UTILS="${PROJECT_ROOT}/blockchain_utils.py"
