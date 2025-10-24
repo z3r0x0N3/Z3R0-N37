@@ -590,7 +590,14 @@ class PrimaryNode:
             print(f"PrimaryNode: Warning: failed to update decrypted payload via helper scripts: {exc}")
 
     # -------------------------- Lock-cycle onion creation --------------------------
-    def create_lock_cycle_onions(self, count: int = 6, local_port: int | None = None, publish_timeout: float = 20.0) -> Dict[str, Tuple[str, str]]:
+    def create_lock_cycle_onions(
+        self,
+        count: int = 6,
+        local_port: int | None = None,
+        publish_timeout: float = 20.0,
+        *,
+        reset_existing: bool = True,
+    ) -> Dict[str, Tuple[str, str]]:
         """
         Create `count` ephemeral .onion services for distributed nodes and update self.proxy_chain_config.
 
@@ -605,13 +612,8 @@ class PrimaryNode:
             return {}
 
         # 1) Stop and remove previous distributed nodes and their services
-        if self.distributed_nodes:
-            for node_id, node_instance in list(self.distributed_nodes.items()):
-                try:
-                    node_instance.stop_server()
-                except Exception as e:
-                    print(f"PrimaryNode: Warning stopping old distributed node {node_id}: {e}")
-            self.distributed_nodes = {}
+        if reset_existing:
+            self.cleanup_distributed_nodes(keep_primary=True)
 
         # 2) Create new distributed Node instances and their ephemeral services
         created_node_info: Dict[str, Dict[str, str]] = {}
