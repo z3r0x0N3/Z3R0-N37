@@ -783,6 +783,8 @@ class PrimaryNode:
                     print(f"[!] PrimaryNode: Failed to remove distributed node {node_id}: {exc}")
                 finally:
                     self.distributed_nodes.pop(node_id, None)
+                    self.distributed_node_meta.pop(node_id, None)
+                    self.pending_commands.pop(node_id, None)
 
         if keep_primary:
             self.build_proxy_chain_config()
