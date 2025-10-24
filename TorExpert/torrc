@@ -1,0 +1,4 @@
+SocksPort 9050
+Log notice stdout
+DisableNetwork 0
+AvoidDiskWrites 1
