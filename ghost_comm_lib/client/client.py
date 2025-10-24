@@ -6,7 +6,8 @@ import socket
 import time
 import logging
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, Tuple
+from urllib.parse import urlparse
 import pgpy
 
 import blockchain_utils
