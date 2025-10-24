@@ -119,8 +119,11 @@ class PrimaryNode:
         # self.hidden_services maps service_id -> onion_addr (string)
         self.hidden_services: Dict[str, str] = {}
         self.distributed_nodes: Dict[str, Node] = {}
-        self.distributed_node_meta: Dict[str, Dict[str, float | str]] = {}
+        self.distributed_node_meta: Dict[str, Dict[str, object]] = {}
         self.pending_commands: Dict[str, list] = {}
+        self._registry_lock = threading.Lock()
+        self.bot_registry_path = self.project_root / "Z3R0_Bot_Registry.csv"
+        self.registered_bots: Dict[str, Dict[str, object]] = {}
         self.onion_address: Optional[str] = None
         self.tor_socks_host = tor_socks_host
         self.tor_socks_port = tor_socks_port
