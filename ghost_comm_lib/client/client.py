@@ -115,14 +115,19 @@ class Client:
         if resolved_url:
             if resolved_url != self.primary_node_host:
                 self.logger.info("Switching primary node host to blockchain value: %s", resolved_url)
-            self.primary_node_host = resolved_url
+            target_endpoint = resolved_url
         else:
             self.logger.debug("Using configured primary node host: %s", self.primary_node_host)
+            target_endpoint = self.primary_node_host
 
-        use_tor = self.primary_node_host.endswith(".onion")
+        host, port = _extract_host_port(target_endpoint, self.primary_node_port)
+        self.primary_node_host = host
+        self.primary_node_port = port
+
+        use_tor = host.endswith(".onion")
         self.connection = ClientConnection(
-            self.primary_node_host,
-            self.primary_node_port if not use_tor else 80, # Onion services typically listen on port 80
+            host,
+            port if not use_tor else port,
             self.tor_socks_proxy_host if use_tor else None,
             self.tor_socks_proxy_port if use_tor else None
         )
