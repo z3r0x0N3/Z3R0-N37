@@ -180,13 +180,7 @@ def _decrypt_control_url_blob(encrypted_blob: str) -> Optional[str]:
 
     logger = logging.getLogger("ControlURL")
     try:
-        encrypted_bytes = base64.b64decode(encrypted_blob)
-    except Exception as exc:
-        logger.warning(f"Failed to base64-decode control URL payload: {exc}")
-        return None
-
-    try:
-        message = pgpy.PGPMessage.from_blob(encrypted_bytes)
+        message = pgpy.PGPMessage.from_blob(encrypted_blob)
         decrypted = key.decrypt(message)
         if decrypted.is_encrypted:
             logger.warning("Decrypted PGP message still marked as encrypted.")
