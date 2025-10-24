@@ -195,7 +195,12 @@ def deploy_contract(w3, contract_interface):
     )
     tx_hash = contract.constructor().transact({'from': w3.eth.accounts[0]})
     tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
-    return tx_receipt.contractAddress
+    contract_address = getattr(tx_receipt, "contractAddress", None)
+    if contract_address is None and isinstance(tx_receipt, dict):
+        contract_address = tx_receipt.get("contractAddress")
+    if not contract_address:
+        raise RuntimeError("Failed to obtain contract address from deployment receipt.")
+    return contract_address
 
 
 def get_contract_instance(w3, contract_address, contract_abi):
