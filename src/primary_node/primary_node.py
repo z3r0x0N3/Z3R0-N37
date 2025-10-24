@@ -276,12 +276,13 @@ class PrimaryNode:
             return None
 
         try:
-            service = self.tor_controller.create_ephemeral_hidden_service(
-                {80: local_port},
-                key_type="NEW",
-                key_content="ED25519-V3",
-                await_publication=await_publication
-            )
+            with self._tor_lock:
+                service = self.tor_controller.create_ephemeral_hidden_service(
+                    {80: local_port},
+                    key_type="NEW",
+                    key_content="ED25519-V3",
+                    await_publication=await_publication
+                )
 
             service_id = service.service_id
             onion_addr = f"{service_id}.onion"
@@ -291,7 +292,8 @@ class PrimaryNode:
                 published = False
                 while time.time() < deadline:
                     try:
-                        info = (self.tor_controller.get_info("onions/current") or "")
+                        with self._tor_lock:
+                            info = (self.tor_controller.get_info("onions/current") or "")
                         if service_id in info:
                             published = True
                             break
@@ -299,10 +301,11 @@ class PrimaryNode:
                         pass
                     time.sleep(0.3)
                 if not published:
-                    try:
-                        self.tor_controller.remove_ephemeral_hidden_service(service_id)
-                    except Exception:
-                        pass
+                    with self._tor_lock:
+                        try:
+                            self.tor_controller.remove_ephemeral_hidden_service(service_id)
+                        except Exception:
+                            pass
                     print(f"PrimaryNode: Error: ephemeral onion {onion_addr} did not publish within {publish_timeout}s")
                     return None
 
