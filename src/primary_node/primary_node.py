@@ -323,13 +323,14 @@ class PrimaryNode:
         if not self.tor_controller:
             return
         try:
-            # stem provides remove_ephemeral_hidden_service in modern versions
-            # if not present, fallback to remove_hidden_service (older name)
-            try:
-                self.tor_controller.remove_ephemeral_hidden_service(service_id)
-            except AttributeError:
-                # older stem naming
-                self.tor_controller.remove_hidden_service(service_id)
+            with self._tor_lock:
+                # stem provides remove_ephemeral_hidden_service in modern versions
+                # if not present, fallback to remove_hidden_service (older name)
+                try:
+                    self.tor_controller.remove_ephemeral_hidden_service(service_id)
+                except AttributeError:
+                    # older stem naming
+                    self.tor_controller.remove_hidden_service(service_id)
             print(f"PrimaryNode: Removed ephemeral hidden service: {service_id}.onion")
         except Exception as e:
             print(f"PrimaryNode: Warning: could not remove ephemeral hidden service {service_id}: {e}")
