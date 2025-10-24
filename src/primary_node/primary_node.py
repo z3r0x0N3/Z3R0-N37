@@ -830,26 +830,32 @@ class PrimaryNode:
 
     def refresh_lock_cycle(self):
         """Refresh lock-cycle: create 6 new distributed nodes and their onion services."""
-        print("PrimaryNode: Refreshing lock-cycle...")
+        print("[DEBUG] PrimaryNode: Refreshing lock-cycle...")
 
-        # Create 6 fresh distributed nodes and their onion services
-        self.create_lock_cycle_onions(count=6, publish_timeout=20.0)
+        self.cleanup_distributed_nodes(keep_primary=True)
+        # Create fresh distributed nodes and their onion services
+        self.create_lock_cycle_onions(count=6, publish_timeout=20.0, reset_existing=False)
 
         # after creation, self.proxy_chain_config and self.distributed_nodes are already updated
-        print("PrimaryNode: Lock-cycle refreshed.")
+        print("[+] PrimaryNode: Lock-cycle refreshed with new distributed nodes.")
 
     def _lock_cycle_worker(self):
         """Background worker that refreshes the lock-cycle periodically."""
         # First, create the initial set of distributed nodes
         self.create_lock_cycle_onions(count=6, publish_timeout=20.0)
 
+        if not self.persistent:
+            print("[DEBUG] PrimaryNode: Auto lock-cycle worker exiting (persistent mode disabled).")
+            return
+
         while self.running:
-            # production: time.sleep(60)
             time.sleep(60)
+            if not self.running:
+                break
             try:
                 self.refresh_lock_cycle()
             except Exception as e:
-                print(f"PrimaryNode: Lock-cycle worker encountered an error: {e}")
+                print(f"[!] PrimaryNode: Lock-cycle worker encountered an error: {e}")
 
     def _http_response(self, status_code: int, reason: str, body: bytes, content_type: str = "text/plain") -> bytes:
         """Format a minimal HTTP/1.1 response."""
