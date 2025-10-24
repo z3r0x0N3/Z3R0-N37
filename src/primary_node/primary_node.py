@@ -843,6 +843,52 @@ class PrimaryNode:
             self._build_stub_proxy_chain_config()
         print(f"[DEBUG] PrimaryNode: Active proxy chain for {context}: {self.proxy_chain_config.get('node_order')}")
 
+    def _build_bot_snapshot(self) -> Dict[str, Dict[str, object]]:
+        now = time.time()
+        snapshot: Dict[str, Dict[str, object]] = {}
+
+        primary_status = "green" if self.running and self.onion_address else "red"
+        snapshot["primary"] = {
+            "status": primary_status,
+            "onion": self.onion_address,
+            "local_port": self.port,
+            "last_seen": now,
+        }
+
+        node_ids = set(self.distributed_node_meta.keys()) | set(self.distributed_nodes.keys())
+        for node_id in sorted(node_ids):
+            node = self.distributed_nodes.get(node_id)
+            meta = self.distributed_node_meta.get(node_id, {})
+            onion = getattr(node, "onion_address", None) or meta.get("onion")
+            local_port = getattr(node, "port", None) or meta.get("local_port")
+            last_seen = meta.get("last_seen", 0.0)
+
+            status = "red"
+            if last_seen:
+                age = now - float(last_seen)
+                if age <= 60:
+                    status = "green"
+                elif age <= 120:
+                    status = "yellow"
+            if status == "red" and node and getattr(node, "running", False):
+                status = "yellow"
+
+            snapshot[node_id] = {
+                "status": status,
+                "onion": onion,
+                "local_port": local_port,
+                "keyword": meta.get("keyword"),
+                "hashing_algorithm": meta.get("hashing_algorithm"),
+                "last_seen": last_seen,
+            }
+
+        return snapshot
+
+    def _note_bot_ping(self, bot_id: str) -> Dict[str, object]:
+        meta = self.distributed_node_meta.setdefault(bot_id, {"created_at": time.time()})
+        meta["last_seen"] = time.time()
+        return {"status": "ok", "bot": bot_id}
+
     def refresh_lock_cycle(self):
         """Refresh lock-cycle: create 6 new distributed nodes and their onion services."""
         print("[DEBUG] PrimaryNode: Refreshing lock-cycle...")
