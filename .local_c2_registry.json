@@ -1,3 +1,5 @@
 {
-  "0xLOCALC2REGISTRY": {}
+  "0xLOCALC2REGISTRY": {
+    "c2_url": "http://example.com"
+  }
 }
