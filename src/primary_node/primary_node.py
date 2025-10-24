@@ -8,6 +8,7 @@ import random
 import subprocess
 import threading
 import time
+import signal
 from pathlib import Path
 from typing import Dict, Optional, Tuple
 
@@ -86,6 +87,7 @@ class PrimaryNode:
         tor_socks_port: int = 9050,
         payload_pubkey_path: str | None = None,
         ui_html_path: str | Path | None = None,
+        persistent: bool = True,
         auto_lock_cycle: bool = True,
     ):
         self.host = host
