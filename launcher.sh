@@ -57,14 +57,23 @@ start_ganache() {
 }
 
 wait_for_ganache() {
-  for _ in {1..10}; do
+  local attempts=${GANACHE_WAIT_ATTEMPTS:-60}
+  local delay=${GANACHE_WAIT_DELAY:-1}
+
+  for ((i = 1; i <= attempts; i++)); do
     if curl -sf "http://127.0.0.1:${PORT}" >/dev/null 2>&1; then
       log "+" "Ganache is live."
       return 0
     fi
-    sleep 1
+
+    sleep "$delay"
+
+    if (( i % 10 == 0 )); then
+      log "!" "Ganache not ready after ${i} attempts; waiting..."
+    fi
   done
-  log "!" "Ganache is not responding on port ${PORT}."
+
+  log "!" "Ganache is not responding on port ${PORT} after $((attempts * delay))s."
   return 1
 }
 
