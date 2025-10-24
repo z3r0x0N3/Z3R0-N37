@@ -136,6 +136,9 @@ class PrimaryNode:
             print(f"PrimaryNode: Restored persisted primary onion address: {persisted_onion}")
             self.publish_control_url_to_blockchain()
 
+        # register signal handler for graceful shutdown
+        self._install_signal_handlers()
+
     # -------------------------- Tor helper methods --------------------------
     def _connect_to_tor_controller(self) -> None:
         """Connect to local Tor control port (9051 by default)."""
