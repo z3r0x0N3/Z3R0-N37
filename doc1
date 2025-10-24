@@ -1,0 +1,2 @@
+/home/_0n3_/projects/Ghost_Comm/get_primary_payload.sh > payload.json && bash /home/_0n3_/projects/Ghost_Com/decrypt_primary_payload.sh > ~/.AUTH/Network_Access_Payload.json
+
