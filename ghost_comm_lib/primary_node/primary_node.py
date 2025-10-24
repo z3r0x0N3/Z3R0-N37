@@ -819,3 +819,17 @@ class PrimaryNode:
 
         if not written:
             print("PrimaryNode: Warning: onion address could not be persisted to any target path.")
+
+def main():
+    """Main function to run the PrimaryNode server."""
+    primary_node = PrimaryNode()
+    primary_node.start_server()
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("\nStopping PrimaryNode server...")
+        primary_node.stop_server()
+
+if __name__ == "__main__":
+    main()
