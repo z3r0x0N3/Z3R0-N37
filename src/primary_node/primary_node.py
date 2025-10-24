@@ -135,6 +135,8 @@ class PrimaryNode:
         self.ui_root_dir = self.ui_html_path.parent.resolve() if self.ui_html_path else None
         self._ui_html_warning_logged = False
 
+        self._load_bot_registry()
+
         # attempt to connect to Tor controller at init
         self._connect_to_tor_controller()
         persisted_onion = self._load_persisted_control_url()
