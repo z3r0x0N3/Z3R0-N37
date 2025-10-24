@@ -27,9 +27,12 @@ import cv2
 import psutil
 from subprocess import Popen, PIPE
 import csv
+import csv
 import stat
 from urllib.parse import urlparse
 from flask import Flask, request, jsonify, send_from_directory
+
+BOT_REGISTRY_FILE = PROJECT_ROOT / "Z3R0_Bot_Registry.csv"
 
 CURRENT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = CURRENT_DIR
