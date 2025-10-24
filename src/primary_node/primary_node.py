@@ -86,6 +86,7 @@ class PrimaryNode:
         tor_socks_port: int = 9050,
         payload_pubkey_path: str | None = None,
         ui_html_path: str | Path | None = None,
+        auto_lock_cycle: bool = True,
     ):
         self.host = host
         self.port = port
@@ -104,6 +105,7 @@ class PrimaryNode:
         # threading / runtime control
         self.lock_cycle_thread = None
         self.running = False
+        self.auto_lock_cycle = auto_lock_cycle
 
         # Tor controller and ephemeral hidden services bookkeeping
         self.tor_control_port = tor_control_port
