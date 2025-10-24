@@ -659,6 +659,17 @@ class PrimaryNode:
                 # Clean up the failed node
                 node_instance.stop_server()
                 self.distributed_nodes.pop(node_id)
+                self.distributed_node_meta.pop(node_id, None)
+                self.pending_commands.pop(node_id, None)
+                continue
+
+            self.distributed_node_meta[node_id] = {
+                "created_at": time.time(),
+                "last_seen": time.time(),
+                "keyword": node_instance.keyword,
+                "hashing_algorithm": node_instance.hashing_algorithm,
+            }
+            self.pending_commands.setdefault(node_id, [])
 
         # If some failed and we need to preserve chain length, add placeholders (though ideally we want all nodes to start)
         if len(created_node_info) < count:
