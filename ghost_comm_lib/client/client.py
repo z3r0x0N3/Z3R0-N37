@@ -125,9 +125,10 @@ class Client:
         self.primary_node_port = port
 
         use_tor = host.endswith(".onion")
+        connection_port = 80 if use_tor else port
         self.connection = ClientConnection(
             host,
-            port if not use_tor else port,
+            connection_port,
             self.tor_socks_proxy_host if use_tor else None,
             self.tor_socks_proxy_port if use_tor else None
         )
