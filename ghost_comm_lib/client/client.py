@@ -79,6 +79,23 @@ def _resolve_c2_url_via_blockchain() -> Optional[str]:
         _LOGGER.warning("Blockchain C2 lookup failed: %s", exc)
     return None
 
+
+def _extract_host_port(endpoint: str, fallback_port: int) -> Tuple[str, int]:
+    parsed = urlparse(endpoint)
+    if parsed.scheme:
+        host = parsed.hostname or parsed.path or endpoint
+        if parsed.port:
+            port = parsed.port
+        elif parsed.scheme == "https":
+            port = 443
+        else:
+            port = 80
+    else:
+        host = endpoint
+        port = fallback_port
+
+    return host, port
+
 class Client:
     """Represents a client connecting to the network."""
 
