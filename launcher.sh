@@ -42,33 +42,20 @@ kill_port_processes() {
 
 
 start_ganache() {
-  kill_port_processes "$PORT"
-  log "+" "Starting Ganache on port ${PORT}..."
-  ganache --wallet.deterministic --port "$PORT" >"$GANACHE_LOG" 2>&1 &
-  GANACHE_PID=$!
-  log "+" "Ganache PID ${GANACHE_PID} (logging to ${GANACHE_LOG})."
+# Start Ganache
+ echo "[+] Starting Ganache on port $PORT..."
+ nohup ganache --wallet.deterministic --port $PORT >$LOG 2>&1 &
+
+ # Wait until it responds
+ for i in {1..10}; do
+   if curl -s http://127.0.0.1:$PORT > /dev/null; then
+     echo "[+] Ganache is live."
+     break
+   fi
+   sleep 1
+ done
 }
 
-wait_for_ganache() {
-  local attempts=${GANACHE_WAIT_ATTEMPTS:-60}
-  local delay=${GANACHE_WAIT_DELAY:-1}
-
-  for ((i = 1; i <= attempts; i++)); do
-    if curl -sf "http://127.0.0.1:${PORT}" >/dev/null 2>&1; then
-      log "+" "Ganache is live."
-      return 0
-    fi
-
-    sleep "$delay"
-
-    if (( i % 10 == 0 )); then
-      log "!" "Ganache not ready after ${i} attempts; waiting..."
-    fi
-  done
-
-  log "!" "Ganache is not responding on port ${PORT} after $((attempts * delay))s."
-  return 1
-}
 
 run_blockchain_utils() {
   if [[ ! -f "$BLOCKCHAIN_UTILS" ]]; then
