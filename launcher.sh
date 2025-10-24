@@ -14,7 +14,6 @@ GANACHE_PID=""
 GHOST_COMM_PID=""
 
 log() {
-  # shellcheck disable=SC2059
   printf '[%s] %s\n' "$1" "$2"
 }
 
