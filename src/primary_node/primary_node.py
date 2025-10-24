@@ -153,6 +153,23 @@ class PrimaryNode:
             print(f"PrimaryNode: Warning: Could not connect to Tor controller on port {self.tor_control_port}: {e}. Tor functionality will be unavailable.")
             self.tor_controller = None
 
+    def _install_signal_handlers(self) -> None:
+        """Install Ctrl+C handler to cleanup distributed nodes gracefully."""
+        try:
+            signal.signal(signal.SIGINT, self._handle_sigint)
+        except (ValueError, RuntimeError):
+            # signal registration can fail in some contexts (e.g., threads); ignore.
+            pass
+
+    def _handle_sigint(self, signum, frame) -> None:
+        print("\n[!] PrimaryNode: SIGINT received, initiating graceful shutdown...")
+        try:
+            self.cleanup_distributed_nodes(keep_primary=True)
+        except Exception as exc:
+            print(f"[!] PrimaryNode: Error during distributed node cleanup: {exc}")
+        finally:
+            self.stop_server()
+
     def _control_url_targets(self) -> list[Path]:
         """Return candidate file paths that may contain the CONTROL-URL."""
         targets: list[Path] = []
