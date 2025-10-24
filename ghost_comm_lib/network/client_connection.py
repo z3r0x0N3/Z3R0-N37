@@ -48,7 +48,7 @@ class ClientConnection:
                 self.socket.connect((self.host, self.port))
                 print(f"Connected to {self.host}:{self.port}")
                 return
-            except (GeneralProxyError, ProxyConnectionError, socket.timeout, socket.error) as exc:
+            except (GeneralProxyError, ProxyConnectionError, socket.timeout, socket.error, PermissionError) as exc:
                 last_exc = exc
                 try:
                     self.socket.close()
