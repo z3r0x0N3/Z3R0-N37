@@ -118,6 +118,8 @@ class PrimaryNode:
         # self.hidden_services maps service_id -> onion_addr (string)
         self.hidden_services: Dict[str, str] = {}
         self.distributed_nodes: Dict[str, Node] = {}
+        self.distributed_node_meta: Dict[str, Dict[str, float | str]] = {}
+        self.pending_commands: Dict[str, list] = {}
         self.onion_address: Optional[str] = None
         self.tor_socks_host = tor_socks_host
         self.tor_socks_port = tor_socks_port
