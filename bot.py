@@ -35,6 +35,7 @@ from netaddr import IPAddress, IPNetwork
 from scapy.all import ARP, Ether, ICMP, IP, TCP, sr
 
 import blockchain_utils
+from ghost_comm_lib import client as ghost_client_module
 from ghost_comm_lib.client.client import Client as GhostCommClient
 
 # Tor Expert Bundle URLs
