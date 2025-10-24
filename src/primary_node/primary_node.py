@@ -867,15 +867,13 @@ class PrimaryNode:
             local_port = getattr(node, "port", None) or meta.get("local_port")
             last_seen = meta.get("last_seen", 0.0)
 
-            status = "red"
+            status = "green" if node and getattr(node, "running", False) and onion else "red"
             if last_seen:
                 age = now - float(last_seen)
-                if age <= 60:
-                    status = "green"
-                elif age <= 120:
+                if age > 120:
+                    status = "red"
+                elif age > 60 and status == "green":
                     status = "yellow"
-            if status == "red" and node and getattr(node, "running", False):
-                status = "yellow"
 
             snapshot[node_id] = {
                 "status": status,
