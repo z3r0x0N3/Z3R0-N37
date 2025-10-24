@@ -30,46 +30,17 @@ kill_pid() {
 }
 
 kill_port_processes() {
-  local port="$1"
-  local pids
-
-  pids=$(lsof -ti :"$port" 2>/dev/null | tr '\n' ' ')
-  if [[ -z "$pids" ]]; then
-    return 0
-  fi
-
-  log "!" "Port ${port} in use. Terminating processes: ${pids}"
-  while read -r pid; do
-    [[ -z "$pid" ]] && continue
-    if ! kill "$pid" 2>/dev/null; then
-      kill -9 "$pid" 2>/dev/null || log "!" "Failed to kill PID ${pid}; requires manual intervention."
-    fi
-  done <<<"$(printf '%s' "$pids" | tr ' ' '\n')"
-  sleep 1
+# Kill any old Ganache
+ if lsof -i :$PORT >/dev/null 2>&1; then
+   echo "[!] Port $PORT in use. Killing old process..."
+   PID=$(lsof -ti :$PORT)
+   sudo kill -9 $PID
+   sleep 1
+ fi
 }
 
 
 
-# Kill any old Ganache
-if lsof -i :$PORT >/dev/null 2>&1; then
-  echo "[!] Port $PORT in use. Killing old process..."
-  PID=$(lsof -ti :$PORT)
-  sudo kill -9 $PID
-  sleep 1
-fi
-
-# Start Ganache
-echo "[+] Starting Ganache on port $PORT..."
-nohup ganache --wallet.deterministic --port $PORT >$LOG 2>&1 &
-
-# Wait until it responds
-for i in {1..10}; do
-  if curl -s http://127.0.0.1:$PORT > /dev/null; then
-    echo "[+] Ganache is live."
-    break
-  fi
-  sleep 1
-done
 start_ganache() {
   kill_port_processes "$PORT"
   log "+" "Starting Ganache on port ${PORT}..."
