@@ -107,7 +107,9 @@ class PrimaryNode:
         # threading / runtime control
         self.lock_cycle_thread = None
         self.running = False
+        self.persistent = persistent
         self.auto_lock_cycle = auto_lock_cycle
+        self._tor_lock = threading.Lock()
 
         # Tor controller and ephemeral hidden services bookkeeping
         self.tor_control_port = tor_control_port
