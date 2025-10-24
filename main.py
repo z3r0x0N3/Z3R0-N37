@@ -1,10 +1,4 @@
 import argparse
-import sys
-
-
-def main(persistent=False):
-    # existing startup logic
-    print("[+] Ghost_Comm initialization complete.")
 
 def main():
     parser = argparse.ArgumentParser(
