@@ -6,14 +6,14 @@ from typing import Optional, Tuple
 import pgpy
 from stem.control import Controller
 
-from src.crypto.utils import (
+from ghost_comm_lib.crypto.utils import (
     decrypt_pgp,
     digital_shift_cipher,
     encrypt_pgp,
     generate_pgp_key,
     hash_data,
 )
-from src.network.server import Server
+from ghost_comm_lib.network.server import Server
 
 
 class Node:
