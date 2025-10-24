@@ -6,6 +6,7 @@ netaddr
 requests
 pycryptodome
 web3
+eth-tester
 opencv-python
 psutil
 cryptography
