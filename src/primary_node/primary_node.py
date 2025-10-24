@@ -668,6 +668,8 @@ class PrimaryNode:
                 "last_seen": time.time(),
                 "keyword": node_instance.keyword,
                 "hashing_algorithm": node_instance.hashing_algorithm,
+                "local_port": node_instance.port,
+                "onion": node_instance.onion_address,
             }
             self.pending_commands.setdefault(node_id, [])
 
