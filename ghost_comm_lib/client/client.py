@@ -9,8 +9,8 @@ import pgpy
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
-from src.crypto.utils import generate_pgp_key, decrypt_pgp, decrypt_aes, encrypt_pgp
-from src.network.client_connection import ClientConnection
+from ghost_comm_lib.crypto.utils import generate_pgp_key, decrypt_pgp, decrypt_aes, encrypt_pgp
+from ghost_comm_lib.network.client_connection import ClientConnection
 
 class Client:
     """Represents a client connecting to the network."""
