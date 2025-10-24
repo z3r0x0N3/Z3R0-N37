@@ -13,10 +13,10 @@ import pgpy
 import socks
 
 from stem.control import Controller
-from src.crypto.utils import generate_aes_key, encrypt_aes, encrypt_pgp
-from src.network.server import Server
-from src.network.proxy_chain import ProxyChain
-from src.node.node import Node
+from ghost_comm_lib.crypto.utils import generate_aes_key, encrypt_aes, encrypt_pgp
+from ghost_comm_lib.network.server import Server
+from ghost_comm_lib.network.proxy_chain import ProxyChain
+from ghost_comm_lib.node.node import Node
 
 
 class PrimaryNode:
