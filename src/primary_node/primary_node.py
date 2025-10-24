@@ -1057,30 +1057,19 @@ class PrimaryNode:
 
     def stop_server(self):
         """Stop server and cleanup ephemeral services."""
-        self.running = False
-        # Stop all distributed nodes
-        if self.distributed_nodes:
-            for node_id, node_instance in list(self.distributed_nodes.items()):
-                try:
-                    node_instance.stop_server()
-                except Exception as e:
-                    print(f"PrimaryNode: Warning stopping distributed node {node_id} at shutdown: {e}")
-            self.distributed_nodes = {}
+        if not self.running:
+            return
 
-        # Remove PrimaryNode's own ephemeral service
-        if self.tor_controller and self.hidden_services:
-            for sid in list(self.hidden_services.keys()):
-                try:
-                    self._remove_ephemeral_service(sid)
-                except Exception as e:
-                    print(f"PrimaryNode: Warning removing own hidden service {sid} at shutdown: {e}")
-            self.hidden_services = {}
+        self.running = False
+        self.cleanup_distributed_nodes(keep_primary=False)
+
+        if self.tor_controller:
             try:
                 self.tor_controller.close()
             except Exception:
                 pass
             self.tor_controller = None
-        # stop server
+
         if self.server:
             self.server.stop()
         if self.server_thread and self.server_thread.is_alive():
