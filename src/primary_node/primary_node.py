@@ -749,6 +749,26 @@ class PrimaryNode:
         self.proxy_chain = ProxyChain(stub["node_configs"], stub["node_order"])
         return self.proxy_chain_config
 
+    def cleanup_distributed_nodes(self, keep_primary: bool = True) -> None:
+        """Stop and remove distributed nodes while optionally keeping the primary service online."""
+        if not self.distributed_nodes:
+            print("[DEBUG] PrimaryNode: No distributed nodes to clean up.")
+            return
+
+        for node_id, node_instance in list(self.distributed_nodes.items()):
+            try:
+                node_instance.stop_server()
+                print(f"[DEBUG] PrimaryNode: Removed distributed node {node_id}")
+            except AttributeError:
+                print(f"[!] PrimaryNode: Node {node_id} missing stop_server attribute; skipping.")
+            except Exception as exc:
+                print(f"[!] PrimaryNode: Failed to remove distributed node {node_id}: {exc}")
+            finally:
+                self.distributed_nodes.pop(node_id, None)
+
+        if keep_primary:
+            self.build_proxy_chain_config()
+
     def get_lock_cycle_payload(self, client_pub_key_pem: bytes) -> bytes:
         """Generates and encrypts the lock-cycle payload (AES + wrap AES key with client PGP)."""
         client_pub_key, _ = pgpy.PGPKey.from_blob(client_pub_key_pem)
