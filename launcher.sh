@@ -148,7 +148,7 @@ while $running; do
 
   log "+" "Starting Ghost_Comm (attempt ${attempt})..."
   if launch_ghost_comm; then
-    log "!" "Ghost_Comm exited cleanly; restarting in ${RESTART_DELAY}s."
+    log "+" "Ghost_Comm exited cleanly; restarting in ${RESTART_DELAY}s."
   else
     exit_code=$?
     if ! $running; then
