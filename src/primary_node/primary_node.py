@@ -1099,7 +1099,7 @@ class PrimaryNode:
             body = http_request["body"]
 
             if method == "GET" and path == "/api/bots":
-                bots_snapshot = self._build_bot_snapshot()
+                bots_snapshot = self._build_registered_snapshot()
                 return self._http_response(
                     200,
                     "OK",
@@ -1107,7 +1107,25 @@ class PrimaryNode:
                     content_type="application/json",
                 )
 
-            if method == "GET" and path.startswith("/api/bots/") and path.endswith("/ping"):
+            if method == "GET" and path == "/api/registrations":
+                bots_snapshot = self._build_registered_snapshot()
+                return self._http_response(
+                    200,
+                    "OK",
+                    json.dumps(bots_snapshot).encode("utf-8"),
+                    content_type="application/json",
+                )
+
+            if method == "GET" and path == "/api/nodes":
+                nodes_snapshot = self._build_node_snapshot()
+                return self._http_response(
+                    200,
+                    "OK",
+                    json.dumps(nodes_snapshot).encode("utf-8"),
+                    content_type="application/json",
+                )
+
+            if method in ("GET", "POST") and path.startswith("/api/bots/") and path.endswith("/ping"):
                 parts = path.strip("/").split("/")
                 if len(parts) == 4:
                     bot_id = parts[2]
