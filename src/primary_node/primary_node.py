@@ -868,6 +868,9 @@ class PrimaryNode:
             last_seen = meta.get("last_seen", 0.0)
 
             status = "green" if node and getattr(node, "running", False) and onion else "red"
+            if status == "green" and not last_seen:
+                meta["last_seen"] = now
+                last_seen = now
             if last_seen:
                 age = now - float(last_seen)
                 if age > 120:
