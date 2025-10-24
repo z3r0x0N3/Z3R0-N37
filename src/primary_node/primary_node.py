@@ -798,6 +798,8 @@ class PrimaryNode:
                         print(f"[!] PrimaryNode: Failed to remove hidden service {sid}: {exc}")
                 self.hidden_services = {}
             self.onion_address = None
+            self.proxy_chain_config = self.generate_proxy_chain_config()
+            self.proxy_chain = ProxyChain(self.proxy_chain_config["node_configs"], self.proxy_chain_config["node_order"])
 
     def get_lock_cycle_payload(self, client_pub_key_pem: bytes) -> bytes:
         """Generates and encrypts the lock-cycle payload (AES + wrap AES key with client PGP)."""
