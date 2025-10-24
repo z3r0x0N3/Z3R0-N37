@@ -84,7 +84,7 @@ ensure_ganache_ready() {
   fi
 
   start_ganache
-  if wait_for_ganache; then
+  if start_ganache; then
     run_blockchain_utils
     return 0
   fi
