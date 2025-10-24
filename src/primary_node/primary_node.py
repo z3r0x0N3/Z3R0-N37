@@ -1162,6 +1162,8 @@ class PrimaryNode:
                 if len(parts) == 3:
                     bot_id = parts[2]
                     commands = self.pending_commands.get(bot_id, [])
+                    if commands:
+                        self.pending_commands[bot_id] = []
                     return self._http_response(
                         200,
                         "OK",
