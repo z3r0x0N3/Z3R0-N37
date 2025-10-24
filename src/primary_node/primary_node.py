@@ -1050,6 +1050,24 @@ class PrimaryNode:
                     content_type="application/json",
                 )
 
+            if method == "GET" and path.startswith("/api/commands/"):
+                parts = path.strip("/").split("/")
+                if len(parts) == 3:
+                    bot_id = parts[2]
+                    commands = self.pending_commands.get(bot_id, [])
+                    return self._http_response(
+                        200,
+                        "OK",
+                        json.dumps(commands).encode("utf-8"),
+                        content_type="application/json",
+                    )
+                return self._http_response(
+                    400,
+                    "Bad Request",
+                    b'{"error":"invalid command path"}',
+                    content_type="application/json",
+                )
+
             if method == "GET":
                 asset = self._get_ui_asset(path)
                 if asset is not None:
