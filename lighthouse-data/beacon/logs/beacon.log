@@ -5247,3 +5247,63 @@ Oct 27 11:15:44.039 INFO  Blob DB initialized                           path: "/
 Oct 27 11:15:44.039 DEBUG Attempting schema migration                   from_version: 28, to_version: 28
 Oct 27 11:15:44.039 DEBUG Store anchor info                             anchor: AnchorInfo { anchor_slot: Slot(8820512), oldest_block_slot: Slot(8820512), oldest_block_parent: 0x236b2949244e6862332a21b2582d59661b7a7f81027ef4c5d3a09e824dec22dc, state_upper_limit: Slot(18446744073709551615), state_lower_limit: Slot(0) }
 Oct 27 11:15:44.041 DEBUG Loaded execution endpoint                     endpoint: http://127.0.0.1:8551/, jwt_path: "/home/_0n3_/.ethereum/sepolia/geth/jwtsecret"
+Oct 27 11:15:49.941 INFO  Refusing to checkpoint sync                   msg: "database already exists, use --purge-db to force checkpoint sync"
+Oct 27 11:15:49.941 INFO  Starting beacon chain                         method: "resume"
+Oct 27 11:15:50.021 DEBUG Cached state                                  state_root: 0xb843956057aee3253c74b539fa3fb9846c03e9e67600fa4c940c9c23a985474a, state_slot: 8820512, deleted_states: [], location: "get_hot_state"
+Oct 27 11:15:50.021 DEBUG Restoring fork choice from persisted          reset_payload_statuses: OnlyWithInvalidPayload, contains_invalid_payloads: false
+Oct 27 11:15:50.035 DEBUG Cached state and hdiff buffer                 load_time_ms: 13, slot: 0
+Oct 27 11:15:50.058 INFO  Block production enabled                    
+Oct 27 11:15:50.059 DEBUG Loading persisted custody context             custody_context: CustodyContext { validator_custody_count: 0, current_is_supernode: false, persisted_is_supernode: false, validator_registrations: RwLock { data: ValidatorRegistrations { validators: {}, epoch_validator_custody_requirements: {} } }, all_custody_columns_ordered: OnceLock(<uninit>), _phantom_data: PhantomData<types::eth_spec::MainnetEthSpec> }
+Oct 27 11:15:50.059 INFO  Beacon chain initialized                      head_state: 0xb843956057aee3253c74b539fa3fb9846c03e9e67600fa4c940c9c23a985474a, head_block: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, head_slot: 8820512
+Oct 27 11:15:50.061 INFO  Execution payloads are pruned               
+Oct 27 11:15:50.062 INFO  Timer service started                       
+Oct 27 11:15:50.062 DEBUG Loaded network key from disk (hex format).  
+Oct 27 11:15:50.062 DEBUG Blobs are pruned                              oldest_blob_slot: 8820512, data_availability_boundary: 271550, split.slot: 8820512, end_epoch: 271549, start_epoch: 275641
+Oct 27 11:15:50.064 INFO  UPnP Attempting to initialise routes        
+Oct 27 11:15:50.064 DEBUG ENR sequence number increased                 seq: 19
+Oct 27 11:15:50.065 DEBUG ENR written to disk                         
+Oct 27 11:15:50.065 DEBUG Loaded metadata from disk                   
+Oct 27 11:15:50.065 DEBUG Metadata sequence number                      seq_num: 12
+Oct 27 11:15:50.065 DEBUG Metadata written to disk                    
+Oct 27 11:15:50.065 DEBUG Starting node with custody params             cgc: 4, sampling_subnets: {117, 20, 2, 116, 125, 50, 66, 90}
+Oct 27 11:15:50.066 DEBUG Using response rate limiting params           config: InboundRateLimiterConfig(RateLimiterConfig { ping: 2/10s, metadata: 2/5s, status: 5/15s, goodbye: 1/10s, blocks_by_range: 128/10s, blocks_by_root: 128/10s, blobs_by_range: 896/10s, blobs_by_root: 896/10s, data_columns_by_range: 16384/10s, data_columns_by_root: 16384/10s })
+Oct 27 11:15:50.066 DEBUG Using self rate limiting params               config: Some(OutboundRateLimiterConfig(RateLimiterConfig { ping: 2/10s, metadata: 2/5s, status: 5/15s, goodbye: 1/10s, blocks_by_range: 128/10s, blocks_by_root: 128/10s, blobs_by_range: 896/10s, blobs_by_root: 896/10s, data_columns_by_range: 16384/10s, data_columns_by_root: 16384/10s }))
+Oct 27 11:15:50.066 INFO  ENR Initialised                               enr: "enr:-OG4QNeZk9kjqrZOtU7ft5TIakg0RKS0nknAQZw0tXIajR9kbo-prMqe6wXZF95l6HCWumnyHI0yeVuqfEbhqeXTuzUTh2F0dG5ldHOIAAAAAAAAAACDY2djBIZjbGllbnTWikxpZ2h0aG91c2WKOC4wLjAtcmMuMYRldGgykP0ytiKQAAB1ADUEAAAAAACCaWSCdjSDbmZkhHTQFFmEcXVpY4IjKYlzZWNwMjU2azGhAufJfafwy05K0ZtJ5CRAIXDMxaESr_B4Y7SFoqR-nY7JiHN5bmNuZXRzAIN0Y3CCIyg", seq: 19, id: 0xc67a..0367, ip4: None, udp4: None, tcp4: Some(9000), tcp6: None, udp6: None, quic4: Some(9001), quic6: None
+Oct 27 11:15:50.066 DEBUG Adding node to routing table                  node_id: 0xf2af..1aa8, peer_id: 16Uiu2HAmHTLnN85vCRuaUd4BBkeGY3jV3kh7aLtK6wWb8gzSr2pc, ip: Some(138.68.123.152), udp: Some(9005), tcp: None
+Oct 27 11:15:50.066 DEBUG Adding node to routing table                  node_id: 0x4867..2ab5, peer_id: 16Uiu2HAkyE5JGME9NsBm6h7dy9e5S3a1sQyqw8cLj2Xfeq41gZr3, ip: Some(138.197.51.181), udp: Some(9005), tcp: None
+Oct 27 11:15:50.066 DEBUG Adding node to routing table                  node_id: 0x4d8c..85c5, peer_id: 16Uiu2HAm8iQT2cjb2M5d1cVTwxtumj8aiKQKKpGKEtcbBqWG7xmD, ip: Some(146.190.1.103), udp: Some(9005), tcp: None
+Oct 27 11:15:50.066 DEBUG Adding node to routing table                  node_id: 0xc6b2..5b0c, peer_id: 16Uiu2HAkuiVw14SPUczT2kqQcfsPg7CCZuQivRv6hRsuoM9XBxa2, ip: Some(139.59.49.206), udp: Some(9005), tcp: None
+Oct 27 11:15:50.067 DEBUG Adding node to routing table                  node_id: 0x29d0..c2fa, peer_id: 16Uiu2HAmFRUi2hcGKJW53T7gxqXSx2eSMtUKEKX3YdXwmuiEEtY2, ip: Some(170.64.250.88), udp: Some(9005), tcp: None
+Oct 27 11:15:50.067 DEBUG Adding node to routing table                  node_id: 0x7b59..3519, peer_id: 16Uiu2HAmL27wdRkTbAjXHLFonJmScMGiHNB9cDwWybVzkX7FQH9r, ip: Some(20.168.200.99), udp: Some(9000), tcp: Some(9000)
+Oct 27 11:15:50.067 DEBUG Adding node to routing table                  node_id: 0xe2aa..abba, peer_id: 16Uiu2HAm8er917Lw83H1RMMupbUoG5ivfoDetiW1CFgeaFZuF4Fq, ip: Some(65.21.145.0), udp: Some(9000), tcp: None
+Oct 27 11:15:50.067 DEBUG Discovery service started                   
+Oct 27 11:15:50.067 DEBUG Starting a peer discovery request             target_peers: 16
+Oct 27 11:15:50.069 INFO  Libp2p Starting                               peer_id: 16Uiu2HAmB2UMhaj9D9zEC4h5c7PTTbDR5zbWTjRKH8CnKNzqA2sA, bandwidth_config: "3-Average"
+Oct 27 11:15:50.069 DEBUG Attempting to open listening ports            listen_addrs: V4(ListenAddr { addr: 0.0.0.0, disc_port: 9000, quic_port: 9001, tcp_port: 9000 }), discovery_enabled: true, quic_enabled: true
+Oct 27 11:15:50.069 INFO  Listening established                         address: /ip4/0.0.0.0/tcp/9000/p2p/16Uiu2HAmB2UMhaj9D9zEC4h5c7PTTbDR5zbWTjRKH8CnKNzqA2sA
+Oct 27 11:15:50.071 INFO  Listening established                         address: /ip4/0.0.0.0/udp/9001/quic-v1/p2p/16Uiu2HAmB2UMhaj9D9zEC4h5c7PTTbDR5zbWTjRKH8CnKNzqA2sA
+Oct 27 11:15:50.072 DEBUG Dialing libp2p peer                           address: /ip4/20.168.200.99/tcp/9000
+Oct 27 11:15:50.072 DEBUG Loading peers into the routing table          peers: 0
+Oct 27 11:15:50.072 DEBUG Sync Manager started                        
+Oct 27 11:15:50.072 DEBUG Sync's view on execution engine state updated  past_state: Online, new_state: Online
+Oct 27 11:15:50.072 DEBUG Network message router started              
+Oct 27 11:15:50.073 DEBUG Subscribed to topic                           topic: /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+Oct 27 11:15:50.073 DEBUG ENR written to disk                         
+Oct 27 11:15:50.073 DEBUG Metadata written to disk                    
+Oct 27 11:15:50.073 DEBUG Subscribed to topic                           topic: /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+Oct 27 11:15:50.073 INFO  HTTP server is disabled                     
+Oct 27 11:15:50.073 DEBUG Metrics server is disabled                  
+Oct 27 11:15:50.074 DEBUG ENR written to disk                         
+Oct 27 11:15:50.074 DEBUG Metadata written to disk                    
+Oct 27 11:15:50.074 DEBUG Starting a new peer discovery query           connected: 0, target: 200, outbound: 0, wanted: 220
+Oct 27 11:15:50.074 DEBUG Starting grouped subnet query                 subnets: [SubnetQuery { subnet: Attestation(SubnetId(50)), min_ttl_secs: None, retries: 0 }, SubnetQuery { subnet: Attestation(SubnetId(49)), min_ttl_secs: None, retries: 0 }]
+Oct 27 11:15:50.074 DEBUG Updating gossipsub score parameters           active_validators: 1773
+Oct 27 11:15:50.075 DEBUG Discv5 event stream ready                   
+Oct 27 11:15:50.076 DEBUG Issuing engine_forkchoiceUpdated              finalized_block_hash: 0x21a12a302112c8792d63e39712ac2d11778bce21d7accc9d2f6dee017a7c23e5, justified_block_hash: 0x21a12a302112c8792d63e39712ac2d11778bce21d7accc9d2f6dee017a7c23e5, head_block_hash: 0x21a12a302112c8792d63e39712ac2d11778bce21d7accc9d2f6dee017a7c23e5, head_block_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, current_slot: Slot(8820679)
+Oct 27 11:15:50.079 DEBUG Execution engine upcheck complete             state: Syncing
+Oct 27 11:15:50.080 DEBUG Execution engine upcheck complete             state: Syncing
+Oct 27 11:15:50.317 DEBUG Execution engine upcheck complete             state: Syncing
+Oct 27 11:15:57.002 DEBUG Advanced head state one slot                  head_block_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, state_slot: 8820513, current_slot: 8820679
+Oct 27 11:15:57.003 DEBUG Cached state                                  state_root: 0xd182c9e992e65a2e538a596768cba1d37ddff8d36dd4cf1ab488ebc418898b2d, state_slot: 8820513, deleted_states: [], location: "store_hot_state"
+Oct 27 11:15:57.003 DEBUG Skipping storage of state already in the DB   slot: 8820513, state_root: 0xd182c9e992e65a2e538a596768cba1d37ddff8d36dd4cf1ab488ebc418898b2d
+Oct 27 11:15:57.003 DEBUG Completed state advance                       head_block_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, advanced_slot: 8820513, initial_slot: 8820512
