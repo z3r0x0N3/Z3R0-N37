@@ -19071,3 +19071,763 @@
 2025-10-27 11:20:00 DEBUG  Handling message from peer 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL 7b00b500604372a6270d5b96533b21d989530b4f
 2025-10-27 11:20:00 DEBUG  Message already received, ignoring 7b00b500604372a6270d5b96533b21d989530b4f
 2025-10-27 11:20:00 DEBUG  Peer disconnected 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 1 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {PeerId("16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t")}
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:01 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:01 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:01 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:01 DEBUG  Handling PRUNE message for peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE
+2025-10-27 11:20:01 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:01 DEBUG  Completed PRUNE handling for peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE
+2025-10-27 11:20:02 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:02 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:02 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:02 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:02 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:02 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:02 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:02 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:02 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:02 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:02 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:02 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:02 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:02 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:02 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:02 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:02 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:02 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:02 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:02 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:02 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:02 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:02 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:02 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:02 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c 97fbc66163ee0e1610ba8b60288d3c2b6c17c4dc
+2025-10-27 11:20:02 DEBUG  Put message in duplicate_cache and resolve promises 97fbc66163ee0e1610ba8b60288d3c2b6c17c4dc
+2025-10-27 11:20:02 DEBUG  Sending received message to user
+2025-10-27 11:20:02 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c e0fd0ab7ddfada4b9e2b13e87cfbba20e51fcd1c
+2025-10-27 11:20:02 DEBUG  Put message in duplicate_cache and resolve promises e0fd0ab7ddfada4b9e2b13e87cfbba20e51fcd1c
+2025-10-27 11:20:02 DEBUG  Sending received message to user
+2025-10-27 11:20:03 DEBUG  Handling PRUNE message for peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE
+2025-10-27 11:20:03 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:03 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:03 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:03 DEBUG  Completed PRUNE handling for peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:03 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:03 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:03 DEBUG  The message got removed from the cache without being validated. 2e089252b0ac03fa1b84239f4c52efa030445293
+2025-10-27 11:20:03 DEBUG  Handling PRUNE message for peer 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H
+2025-10-27 11:20:03 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:20:03 DEBUG  Completed PRUNE handling for peer 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H
+2025-10-27 11:20:04 DEBUG  Handling message from peer 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H 1e9a3e05c23f4ba3acf2da979b11bef13d3c63dc
+2025-10-27 11:20:04 DEBUG  Put message in duplicate_cache and resolve promises 1e9a3e05c23f4ba3acf2da979b11bef13d3c63dc
+2025-10-27 11:20:04 DEBUG  Sending received message to user
+2025-10-27 11:20:04 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 1e9a3e05c23f4ba3acf2da979b11bef13d3c63dc
+2025-10-27 11:20:04 DEBUG  Message already received, ignoring 1e9a3e05c23f4ba3acf2da979b11bef13d3c63dc
+2025-10-27 11:20:04 DEBUG  Handling message from peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C 1e9a3e05c23f4ba3acf2da979b11bef13d3c63dc
+2025-10-27 11:20:04 DEBUG  Message already received, ignoring 1e9a3e05c23f4ba3acf2da979b11bef13d3c63dc
+2025-10-27 11:20:04 WARN  Rejected message not in cache 2e089252b0ac03fa1b84239f4c52efa030445293
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:04 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:04 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:04 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:05 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:05 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:05 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:06 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:06 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:06 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:07 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:07 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:07 DEBUG  The message got removed from the cache without being validated. 15851e78ce28d1199191729d8b54049d8de15dee
+2025-10-27 11:20:07 DEBUG  The message got removed from the cache without being validated. 3a7acba550c0c5a6979b3ec44c271194840e6bdb
+2025-10-27 11:20:07 DEBUG  The message got removed from the cache without being validated. 33a6679a828fcfece3cb4d0bdbfbd64fcf05ca26
+2025-10-27 11:20:07 DEBUG  The message got removed from the cache without being validated. 77c13960b84a92bb2212cfe9ee5f98d262089ac2
+2025-10-27 11:20:07 DEBUG  Handling PRUNE message for peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c
+2025-10-27 11:20:07 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:20:07 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:07 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:07 DEBUG  Completed PRUNE handling for peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H aca65b00e54d4b696d984d45992ba3c64b1e59e8
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises aca65b00e54d4b696d984d45992ba3c64b1e59e8
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C aca65b00e54d4b696d984d45992ba3c64b1e59e8
+2025-10-27 11:20:08 DEBUG  Message already received, ignoring aca65b00e54d4b696d984d45992ba3c64b1e59e8
+2025-10-27 11:20:08 WARN  Rejected message not in cache 15851e78ce28d1199191729d8b54049d8de15dee
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t aca65b00e54d4b696d984d45992ba3c64b1e59e8
+2025-10-27 11:20:08 DEBUG  Message already received, ignoring aca65b00e54d4b696d984d45992ba3c64b1e59e8
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 3abafa872b03fd8446902117a09aa8830ebc429a
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises 3abafa872b03fd8446902117a09aa8830ebc429a
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c a4a329c36058de1cc5579c2ff7c92b18fecc7401
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises a4a329c36058de1cc5579c2ff7c92b18fecc7401
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c 2f745cf6c8a0f73508d617ec215f6db2ee7016c5
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises 2f745cf6c8a0f73508d617ec215f6db2ee7016c5
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 WARN  Rejected message not in cache 77c13960b84a92bb2212cfe9ee5f98d262089ac2
+2025-10-27 11:20:08 WARN  Rejected message not in cache 33a6679a828fcfece3cb4d0bdbfbd64fcf05ca26
+2025-10-27 11:20:08 WARN  Rejected message not in cache 3a7acba550c0c5a6979b3ec44c271194840e6bdb
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t ecc27bc39ac15b1ada363ae3f720786c06604d63
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises ecc27bc39ac15b1ada363ae3f720786c06604d63
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Forwarding message ecc27bc39ac15b1ada363ae3f720786c06604d63
+2025-10-27 11:20:08 DEBUG  Sending message to peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE ecc27bc39ac15b1ada363ae3f720786c06604d63
+2025-10-27 11:20:08 DEBUG  Completed forwarding message
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 27867e507bc46613e5dadec175e9a4812d87054e
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises 27867e507bc46613e5dadec175e9a4812d87054e
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Forwarding message 27867e507bc46613e5dadec175e9a4812d87054e
+2025-10-27 11:20:08 DEBUG  Sending message to peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE 27867e507bc46613e5dadec175e9a4812d87054e
+2025-10-27 11:20:08 DEBUG  Completed forwarding message
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t d1d66eb43bd5eb4ac9a53fe327a807076eb417ee
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises d1d66eb43bd5eb4ac9a53fe327a807076eb417ee
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 4174434a448cab9659048a4180693f774a9eaaaf
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises 4174434a448cab9659048a4180693f774a9eaaaf
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 2384ef8bb0e5869b4f3e47d4607a82214b4e63a6
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises 2384ef8bb0e5869b4f3e47d4607a82214b4e63a6
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 09df56269d3abe27787a733058f57841e101edf2
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises 09df56269d3abe27787a733058f57841e101edf2
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Forwarding message 4174434a448cab9659048a4180693f774a9eaaaf
+2025-10-27 11:20:08 DEBUG  Sending message to peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE 4174434a448cab9659048a4180693f774a9eaaaf
+2025-10-27 11:20:08 DEBUG  Completed forwarding message
+2025-10-27 11:20:08 DEBUG  Forwarding message d1d66eb43bd5eb4ac9a53fe327a807076eb417ee
+2025-10-27 11:20:08 DEBUG  Sending message to peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE d1d66eb43bd5eb4ac9a53fe327a807076eb417ee
+2025-10-27 11:20:08 DEBUG  Completed forwarding message
+2025-10-27 11:20:08 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 6ea49b033466a1598ba804817bb58a37ad9e8355
+2025-10-27 11:20:08 DEBUG  Put message in duplicate_cache and resolve promises 6ea49b033466a1598ba804817bb58a37ad9e8355
+2025-10-27 11:20:08 DEBUG  Sending received message to user
+2025-10-27 11:20:08 DEBUG  Forwarding message 2384ef8bb0e5869b4f3e47d4607a82214b4e63a6
+2025-10-27 11:20:08 DEBUG  Sending message to peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE 2384ef8bb0e5869b4f3e47d4607a82214b4e63a6
+2025-10-27 11:20:08 DEBUG  Completed forwarding message
+2025-10-27 11:20:08 DEBUG  Forwarding message 6ea49b033466a1598ba804817bb58a37ad9e8355
+2025-10-27 11:20:08 DEBUG  Sending message to peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE 6ea49b033466a1598ba804817bb58a37ad9e8355
+2025-10-27 11:20:08 DEBUG  Completed forwarding message
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 1 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {PeerId("16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C")}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:08 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:08 DEBUG  RANDOM PEERS: Got 3 peers
+2025-10-27 11:20:08 DEBUG  Gossiping IHAVE to 3 peers
+2025-10-27 11:20:08 DEBUG  The message got removed from the cache without being validated. ad886e1cde53264d707ee4a51feb0e84c143eee3
+2025-10-27 11:20:08 DEBUG  IHAVE: Asking for 2 out of 2 messages from peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C
+2025-10-27 11:20:08 WARN  Rejected message not in cache ad886e1cde53264d707ee4a51feb0e84c143eee3
+2025-10-27 11:20:09 DEBUG  Handling message from peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C 1f663fe0fd3012fd76ca98d768450e516419af0e
+2025-10-27 11:20:09 DEBUG  Put message in duplicate_cache and resolve promises 1f663fe0fd3012fd76ca98d768450e516419af0e
+2025-10-27 11:20:09 DEBUG  Sending received message to user
+2025-10-27 11:20:09 DEBUG  Handling message from peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C 591ad835b373ccb76658a16d84787dc26656a5ac
+2025-10-27 11:20:09 DEBUG  Put message in duplicate_cache and resolve promises 591ad835b373ccb76658a16d84787dc26656a5ac
+2025-10-27 11:20:09 DEBUG  Sending received message to user
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:09 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:09 DEBUG  RANDOM PEERS: Got 3 peers
+2025-10-27 11:20:09 DEBUG  Gossiping IHAVE to 3 peers
+2025-10-27 11:20:10 DEBUG  IHAVE: Asking for 5 out of 5 messages from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:10 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:10 DEBUG  RANDOM PEERS: Got 3 peers
+2025-10-27 11:20:10 DEBUG  Gossiping IHAVE to 3 peers
+2025-10-27 11:20:10 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c 3eb87be2a40dbc5558628f0653e25a4964ca5754
+2025-10-27 11:20:10 DEBUG  Put message in duplicate_cache and resolve promises 3eb87be2a40dbc5558628f0653e25a4964ca5754
+2025-10-27 11:20:10 DEBUG  Sending received message to user
+2025-10-27 11:20:10 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c 4a3e897271766928b716ca725fc035be33ab4567
+2025-10-27 11:20:10 DEBUG  Put message in duplicate_cache and resolve promises 4a3e897271766928b716ca725fc035be33ab4567
+2025-10-27 11:20:10 DEBUG  Sending received message to user
+2025-10-27 11:20:10 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c 4b32bd8bae187b4d65ae474fe66ab322028cc1be
+2025-10-27 11:20:10 DEBUG  Put message in duplicate_cache and resolve promises 4b32bd8bae187b4d65ae474fe66ab322028cc1be
+2025-10-27 11:20:10 DEBUG  Sending received message to user
+2025-10-27 11:20:10 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c dafb01784d035de809ba6bb4b5c48552c55364eb
+2025-10-27 11:20:10 DEBUG  Put message in duplicate_cache and resolve promises dafb01784d035de809ba6bb4b5c48552c55364eb
+2025-10-27 11:20:10 DEBUG  Sending received message to user
+2025-10-27 11:20:10 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c b882e0133987b74a9afdacb6bec7be1b9e6ccea4
+2025-10-27 11:20:10 DEBUG  Put message in duplicate_cache and resolve promises b882e0133987b74a9afdacb6bec7be1b9e6ccea4
+2025-10-27 11:20:10 DEBUG  Sending received message to user
+2025-10-27 11:20:10 DEBUG  Handling PRUNE message for peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C
+2025-10-27 11:20:10 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:20:10 DEBUG  Completed PRUNE handling for peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C
+2025-10-27 11:20:11 DEBUG  Handling PRUNE message for peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE
+2025-10-27 11:20:11 DEBUG  PRUNE: Removing peer from the mesh for topic 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:20:11 DEBUG  Completed PRUNE handling for peer 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:11 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:11 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:11 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c e9b7315dbc22f44f94300e975856db0a7c9ac3c7
+2025-10-27 11:20:12 DEBUG  Put message in duplicate_cache and resolve promises e9b7315dbc22f44f94300e975856db0a7c9ac3c7
+2025-10-27 11:20:12 DEBUG  Sending received message to user
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c 1cb22224b57019e2543ff176f3764be6c6faa74d
+2025-10-27 11:20:12 DEBUG  Put message in duplicate_cache and resolve promises 1cb22224b57019e2543ff176f3764be6c6faa74d
+2025-10-27 11:20:12 DEBUG  Sending received message to user
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t e9b7315dbc22f44f94300e975856db0a7c9ac3c7
+2025-10-27 11:20:12 DEBUG  Message already received, ignoring e9b7315dbc22f44f94300e975856db0a7c9ac3c7
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H 03ed821751f0aa4ff0e4c213391816468a8fee71
+2025-10-27 11:20:12 DEBUG  Put message in duplicate_cache and resolve promises 03ed821751f0aa4ff0e4c213391816468a8fee71
+2025-10-27 11:20:12 DEBUG  Sending received message to user
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 1357e4f9fda49d8bef7a3ef7ab1277d2fefa1bc4
+2025-10-27 11:20:12 DEBUG  Put message in duplicate_cache and resolve promises 1357e4f9fda49d8bef7a3ef7ab1277d2fefa1bc4
+2025-10-27 11:20:12 DEBUG  Sending received message to user
+2025-10-27 11:20:12 DEBUG  Peer disconnected 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 92ee69659dc6f19a20b920319a71fd6273c99077
+2025-10-27 11:20:12 DEBUG  Put message in duplicate_cache and resolve promises 92ee69659dc6f19a20b920319a71fd6273c99077
+2025-10-27 11:20:12 DEBUG  Sending received message to user
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:12 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:12 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:12 DEBUG  The message got removed from the cache without being validated. 44dadcdb08fb5965ca184574d07af08878c27191
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 511bb7c0688de78324c7c8d9acfe393df04922bd
+2025-10-27 11:20:12 DEBUG  Put message in duplicate_cache and resolve promises 511bb7c0688de78324c7c8d9acfe393df04922bd
+2025-10-27 11:20:12 DEBUG  Sending received message to user
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 424e330d3f7a92d8968510ff01a9243e089c2dbe
+2025-10-27 11:20:12 DEBUG  Put message in duplicate_cache and resolve promises 424e330d3f7a92d8968510ff01a9243e089c2dbe
+2025-10-27 11:20:12 DEBUG  Sending received message to user
+2025-10-27 11:20:12 DEBUG  Handling message from peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C 9a6081f09310c6f857d3797aed254fafdec35da8
+2025-10-27 11:20:12 DEBUG  Put message in duplicate_cache and resolve promises 9a6081f09310c6f857d3797aed254fafdec35da8
+2025-10-27 11:20:12 DEBUG  Sending received message to user
+2025-10-27 11:20:13 DEBUG  Handling message from peer 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t 9a6081f09310c6f857d3797aed254fafdec35da8
+2025-10-27 11:20:13 DEBUG  Message already received, ignoring 9a6081f09310c6f857d3797aed254fafdec35da8
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:13 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  Peer disconnected 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:14 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:14 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:14 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:15 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:15 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:15 DEBUG  The message got removed from the cache without being validated. 1e9a3e05c23f4ba3acf2da979b11bef13d3c63dc
+2025-10-27 11:20:16 WARN  Rejected message not in cache 1e9a3e05c23f4ba3acf2da979b11bef13d3c63dc
+2025-10-27 11:20:16 DEBUG  Handling message from peer 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H 2daa533b006721d0770522d05a7ded3202c9ac43
+2025-10-27 11:20:16 DEBUG  Put message in duplicate_cache and resolve promises 2daa533b006721d0770522d05a7ded3202c9ac43
+2025-10-27 11:20:16 DEBUG  Sending received message to user
+2025-10-27 11:20:16 DEBUG  Handling message from peer 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C 2daa533b006721d0770522d05a7ded3202c9ac43
+2025-10-27 11:20:16 DEBUG  Message already received, ignoring 2daa533b006721d0770522d05a7ded3202c9ac43
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 2 needs: 5 /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:20:16 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:20:16 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:20:16 DEBUG  Updating mesh, new mesh: {}

@@ -7679,3 +7679,302 @@ Oct 27 11:19:59.542 DEBUG Peer disconnected                             peer_id:
 Oct 27 11:19:59.542 DEBUG Received disconnected message                 peer_id: 16Uiu2HAm8sUvNuCqiFyJ4JS816vpCfHn6RU1HCsY3M7KFQUyD5cQ
 Oct 27 11:20:00.000 DEBUG Running beacon chain per slot tasks           slot: Slot(8820700)
 Oct 27 11:20:00.000 DEBUG No change in canonical head                   head: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, slot: 8820700
+Oct 27 11:20:00.542 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }, slot: 8820700, block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, index: 116
+Oct 27 11:20:00.542 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, score: -10.00
+Oct 27 11:20:00.593 DEBUG Rejected gossip block                         error: "ParentUnknown { parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }", graffiti: "GE4171TK5997", slot: 8820700
+Oct 27 11:20:00.594 DEBUG Unknown parent for gossip block               block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02
+Oct 27 11:20:00.594 DEBUG Received unknown parent block message         block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d
+Oct 27 11:20:00.594 DEBUG Ignoring unknown parent request               block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d, reason: "execution engine offline"
+Oct 27 11:20:00.621 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }, slot: 8820700, block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, index: 20
+Oct 27 11:20:00.621 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c, score: -10.00
+Oct 27 11:20:00.658 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }, slot: 8820700, block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, index: 2
+Oct 27 11:20:00.658 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL, score: -10.00
+Oct 27 11:20:00.708 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }, slot: 8820700, block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, index: 117
+Oct 27 11:20:00.708 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, score: -10.00
+Oct 27 11:20:00.781 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }, slot: 8820700, block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, index: 125
+Oct 27 11:20:00.781 DEBUG Peer transitioned to forced disconnect score state  peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL, score: -20.00, past_score_state: Healthy
+Oct 27 11:20:00.781 DEBUG Peer Manager disconnecting peer               peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL, reason: Bad Score
+Oct 27 11:20:00.809 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }, slot: 8820700, block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, index: 50
+Oct 27 11:20:00.809 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL, score: -30.00
+Oct 27 11:20:00.833 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }, slot: 8820700, block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, index: 66
+Oct 27 11:20:00.833 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL, score: -40.00
+Oct 27 11:20:00.849 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d }, slot: 8820700, block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, index: 90
+Oct 27 11:20:00.850 DEBUG Peer has been banned                          peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL, score: -50.00
+Oct 27 11:20:00.850 DEBUG Banning peer that is currently disconnecting  peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL
+Oct 27 11:20:00.905 DEBUG Goodbye sent, Handler deactivated             peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL, connection_id: 11
+Oct 27 11:20:00.905 DEBUG Peer disconnected                             peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL
+Oct 27 11:20:00.905 DEBUG Received disconnected message                 peer_id: 16Uiu2HAm9aGaWwGbDY33kcTz8dDVFkmJBz4DgRuMLPVKSBrdJMzL
+Oct 27 11:20:04.001 DEBUG Simulating unagg. attestation production    
+Oct 27 11:20:04.001 DEBUG Failed to simulate attestation                error: HeadBlockNotFullyVerified { beacon_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, execution_status: Optimistic(0x4de77916398448b5a36f5f70d2dc9af3c96beefc850012506ed887ec7d3dcd34) }
+Oct 27 11:20:04.023 DEBUG Optimistic update for unknown block           peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, parent_root: 0xf0e9a51dbdc49c8431ed8d7e57f5f21bdb146376ee31ba2439bb80b93029a44d
+Oct 27 11:20:04.080 DEBUG Optimistic update for unknown block           peer_id: 16Uiu2HAm8sUvNuCqiFyJ4JS816vpCfHn6RU1HCsY3M7KFQUyD5cQ, parent_root: 0x68752ce0231ec1afc3129baadd05a12ae43b76f51ee6c7fbefdb63cc4b007a69
+Oct 27 11:20:04.080 DEBUG Not sending light client update because it had been reprocessed  peer_id: 16Uiu2HAm8sUvNuCqiFyJ4JS816vpCfHn6RU1HCsY3M7KFQUyD5cQ, parent_root: 0x68752ce0231ec1afc3129baadd05a12ae43b76f51ee6c7fbefdb63cc4b007a69
+Oct 27 11:20:04.166 DEBUG Obtained peer's metadata                      peer_id: 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c, new_seq_no: 13, cgc: "128"
+Oct 27 11:20:04.168 DEBUG Received updated peer CGC message             peer_id: PeerId("16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c")
+Oct 27 11:20:06.000 DEBUG Slot timer                                    peers: "5", finalized_root: 0xef1439ae4d8652910a55a2550e5b8e26b70f1a5c37cd604eee41e27309bc5e09, finalized_epoch: 275644, head_block: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, head_slot: 8820686, current_slot: 8820700, sync_state: Synced
+Oct 27 11:20:06.001 WARN  Head is optimistic                            info: "chain not fully verified, block and attestation production disabled until execution engine syncs", execution_block_hash: 0x4de77916398448b5a36f5f70d2dc9af3c96beefc850012506ed887ec7d3dcd34
+Oct 27 11:20:06.001 INFO  Synced                                        peers: "5", exec_hash: "0x4de77916398448b5a36f5f70d2dc9af3c96beefc850012506ed887ec7d3dcd34 (unverified)", finalized_root: 0xef1439ae4d8652910a55a2550e5b8e26b70f1a5c37cd604eee41e27309bc5e09, finalized_epoch: 275644, epoch: 275646, block: "   …  empty", slot: 8820700
+Oct 27 11:20:06.614 ERROR Error during execution engine upcheck         error: HttpClient(url: http://127.0.0.1:8551/, kind: request, detail: error trying to connect: tcp connect error: Connection refused (os error 111))
+Oct 27 11:20:06.615 DEBUG Execution engine upcheck complete             state: Offline
+Oct 27 11:20:08.001 DEBUG Proposer prepare routine firing             
+Oct 27 11:20:08.036 DEBUG Light client error constructing finality update  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, error: FailedConstructingUpdate
+Oct 27 11:20:08.125 DEBUG Received unknown block hash message           block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, peer_id: PeerId("16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t")
+Oct 27 11:20:08.125 DEBUG Ignoring unknown block request                block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, reason: "execution engine offline"
+Oct 27 11:20:08.126 DEBUG Received unknown block hash message           block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, peer_id: PeerId("16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c")
+Oct 27 11:20:08.126 DEBUG Ignoring unknown block request                block_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, reason: "execution engine offline"
+Oct 27 11:20:08.908 DEBUG Obtained peer's metadata                      peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, new_seq_no: 2009, cgc: "128"
+Oct 27 11:20:08.908 DEBUG Received updated peer CGC message             peer_id: PeerId("16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H")
+Oct 27 11:20:09.000 DEBUG Advanced head state one slot                  head_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, state_slot: 8820691, current_slot: 8820700
+Oct 27 11:20:09.002 DEBUG Cached state                                  state_root: 0x7b3c6a3c2aad18ab63284f3387519a3831a74576dbffb851daa3954d8e788ab2, state_slot: 8820691, deleted_states: [], location: "store_hot_state"
+Oct 27 11:20:09.002 DEBUG Storing hot state summary and diffs           state_root: 0x7b3c6a3c2aad18ab63284f3387519a3831a74576dbffb851daa3954d8e788ab2, slot: 8820691, storage_strategy: ReplayFrom(Slot(8820672)), diff_base_state: 8820672/0x624ae279f160d2dad05f9529129ce965ff5e4b999dc696e581e64f414a30a232, previous_state_root: 0x7d1c2aac472ca7d2a80f44f46d71ebe94f4ba0fb64dd3e348c7faf413a7fca37
+Oct 27 11:20:09.002 DEBUG Completed state advance                       head_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, advanced_slot: 8820691, initial_slot: 8820690
+Oct 27 11:20:09.002 DEBUG Obtained peer's metadata                      peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, new_seq_no: 12, cgc: "128"
+Oct 27 11:20:09.002 DEBUG Received updated peer CGC message             peer_id: PeerId("16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE")
+Oct 27 11:20:09.507 DEBUG Obtained peer's metadata                      peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, new_seq_no: 2, cgc: "4"
+Oct 27 11:20:09.507 DEBUG Received updated peer CGC message             peer_id: PeerId("16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C")
+Oct 27 11:20:09.612 DEBUG Obtained peer's metadata                      peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, new_seq_no: 2, cgc: "128"
+Oct 27 11:20:09.612 DEBUG Received updated peer CGC message             peer_id: PeerId("16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t")
+Oct 27 11:20:11.502 DEBUG No change in canonical head                   head: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, slot: 8820701
+Oct 27 11:20:12.005 DEBUG Running beacon chain per slot tasks           slot: Slot(8820701)
+Oct 27 11:20:12.005 DEBUG No change in canonical head                   head: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, slot: 8820701
+Oct 27 11:20:12.194 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02 }, slot: 8820701, block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, index: 2
+Oct 27 11:20:12.194 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c, score: -20.00
+Oct 27 11:20:12.222 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02 }, slot: 8820701, block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, index: 117
+Oct 27 11:20:12.223 DEBUG Peer transitioned to forced disconnect score state  peer_id: 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c, score: -30.00, past_score_state: Healthy
+Oct 27 11:20:12.223 DEBUG Peer Manager disconnecting peer               peer_id: 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c, reason: Bad Score
+Oct 27 11:20:12.238 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02 }, slot: 8820701, block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, index: 90
+Oct 27 11:20:12.238 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, score: -20.00
+Oct 27 11:20:12.296 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02 }, slot: 8820701, block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, index: 116
+Oct 27 11:20:12.296 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, score: -10.00
+Oct 27 11:20:12.355 DEBUG Goodbye sent, Handler deactivated             peer_id: 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c, connection_id: 10
+Oct 27 11:20:12.356 DEBUG Peer disconnected                             peer_id: 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c
+Oct 27 11:20:12.356 DEBUG Received disconnected message                 peer_id: 16Uiu2HAmJ1JBVepW6EsBsNo6ntXsRyhLbi83jwBvQG7USMnpQT7c
+Oct 27 11:20:12.356 DEBUG Resuming backfill sync                        start_epoch: Epoch(275641), awaiting_batches: 0, processing_target: Epoch(275641)
+Oct 27 11:20:12.356 DEBUG Sending backfill batch                        batch_id: Epoch(275641)
+Oct 27 11:20:12.356 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275641, peer: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, id: 2/1/BackfillSync/275641, range_req_id: BackfillSync/275641, peers: 4
+Oct 27 11:20:12.356 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275641, columns: [20, 50], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 3/1/BackfillSync/275641, range_req_id: BackfillSync/275641, peers: 4
+Oct 27 11:20:12.356 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275641, columns: [2, 116], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 4/1/BackfillSync/275641, range_req_id: BackfillSync/275641, peers: 4
+Oct 27 11:20:12.356 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275641, columns: [90, 125, 66, 117], peer: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, id: 5/1/BackfillSync/275641, range_req_id: BackfillSync/275641, peers: 4
+Oct 27 11:20:12.356 DEBUG Requesting batch                              epoch: 275641, batch: Start Slot: 8820512, End Slot: 8820544, State: Downloading
+Oct 27 11:20:12.361 DEBUG Sending backfill batch                        batch_id: Epoch(275640)
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275640, peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 7/6/BackfillSync/275640, range_req_id: BackfillSync/275640, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275640, columns: [116, 20, 2, 50], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 8/6/BackfillSync/275640, range_req_id: BackfillSync/275640, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275640, columns: [66, 125], peer: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, id: 9/6/BackfillSync/275640, range_req_id: BackfillSync/275640, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275640, columns: [90, 117], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 10/6/BackfillSync/275640, range_req_id: BackfillSync/275640, peers: 4
+Oct 27 11:20:12.361 DEBUG Requesting batch                              epoch: 275640, batch: Start Slot: 8820480, End Slot: 8820512, State: Downloading
+Oct 27 11:20:12.361 DEBUG Sending backfill batch                        batch_id: Epoch(275639)
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275639, peer: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, id: 12/11/BackfillSync/275639, range_req_id: BackfillSync/275639, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275639, columns: [50], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 13/11/BackfillSync/275639, range_req_id: BackfillSync/275639, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275639, columns: [20, 90], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 14/11/BackfillSync/275639, range_req_id: BackfillSync/275639, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275639, columns: [2, 116, 125, 117, 66], peer: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, id: 15/11/BackfillSync/275639, range_req_id: BackfillSync/275639, peers: 4
+Oct 27 11:20:12.361 DEBUG Requesting batch                              epoch: 275639, batch: Start Slot: 8820448, End Slot: 8820480, State: Downloading
+Oct 27 11:20:12.361 DEBUG Sending backfill batch                        batch_id: Epoch(275638)
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275638, peer: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, id: 17/16/BackfillSync/275638, range_req_id: BackfillSync/275638, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275638, columns: [2], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 18/16/BackfillSync/275638, range_req_id: BackfillSync/275638, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275638, columns: [50, 117], peer: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, id: 19/16/BackfillSync/275638, range_req_id: BackfillSync/275638, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275638, columns: [90, 66, 20, 125, 116], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 20/16/BackfillSync/275638, range_req_id: BackfillSync/275638, peers: 4
+Oct 27 11:20:12.361 DEBUG Requesting batch                              epoch: 275638, batch: Start Slot: 8820416, End Slot: 8820448, State: Downloading
+Oct 27 11:20:12.361 DEBUG Sending backfill batch                        batch_id: Epoch(275637)
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275637, peer: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, id: 22/21/BackfillSync/275637, range_req_id: BackfillSync/275637, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275637, columns: [66, 117, 90, 20], peer: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, id: 23/21/BackfillSync/275637, range_req_id: BackfillSync/275637, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275637, columns: [116], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 24/21/BackfillSync/275637, range_req_id: BackfillSync/275637, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275637, columns: [125, 2, 50], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 25/21/BackfillSync/275637, range_req_id: BackfillSync/275637, peers: 4
+Oct 27 11:20:12.361 DEBUG Requesting batch                              epoch: 275637, batch: Start Slot: 8820384, End Slot: 8820416, State: Downloading
+Oct 27 11:20:12.361 DEBUG Sending backfill batch                        batch_id: Epoch(275636)
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275636, peer: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, id: 27/26/BackfillSync/275636, range_req_id: BackfillSync/275636, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275636, columns: [116, 117, 66], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 28/26/BackfillSync/275636, range_req_id: BackfillSync/275636, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275636, columns: [125], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 29/26/BackfillSync/275636, range_req_id: BackfillSync/275636, peers: 4
+Oct 27 11:20:12.361 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275636, columns: [90, 20, 50, 2], peer: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, id: 30/26/BackfillSync/275636, range_req_id: BackfillSync/275636, peers: 4
+Oct 27 11:20:12.361 DEBUG Requesting batch                              epoch: 275636, batch: Start Slot: 8820352, End Slot: 8820384, State: Downloading
+Oct 27 11:20:12.361 INFO  Sync state updated                            old_state: Synced, new_state: Syncing Historical Blocks
+Oct 27 11:20:12.361 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.362 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.433 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02 }, slot: 8820701, block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, index: 66
+Oct 27 11:20:12.433 DEBUG Peer transitioned to forced disconnect score state  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, score: -20.00, past_score_state: Healthy
+Oct 27 11:20:12.433 DEBUG Peer Manager disconnecting peer               peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, reason: Bad Score
+Oct 27 11:20:12.463 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:12.465 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.465 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.465 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.523 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02 }, slot: 8820701, block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, index: 20
+Oct 27 11:20:12.524 DEBUG Could not verify column sidecar for gossip. Rejecting the column sidecar  error: NotFinalizedDescendant { block_parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02 }, slot: 8820701, block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, index: 50
+Oct 27 11:20:12.527 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, score: -30.00
+Oct 27 11:20:12.527 DEBUG Peer score adjusted                           msg: gossip_data_column_low, peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, score: -40.00
+Oct 27 11:20:12.564 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:12.568 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.569 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.569 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.602 DEBUG Sync RPC request completed                    id: 3/1/BackfillSync/275641, method: "DataColumnsByRange", count: 64
+Oct 27 11:20:12.664 DEBUG Sync RPC request completed                    id: 8/6/BackfillSync/275640, method: "DataColumnsByRange", count: 128
+Oct 27 11:20:12.665 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:12.669 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.678 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.678 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.700 DEBUG Rejected gossip block                         error: "ParentUnknown { parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02 }", graffiti: "🧱🔥 Kiln.fi 🔥🧱 NMTK", slot: 8820701
+Oct 27 11:20:12.703 DEBUG Unknown parent for gossip block               block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1
+Oct 27 11:20:12.704 DEBUG Received unknown parent block message         block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02
+Oct 27 11:20:12.704 DEBUG Ignoring unknown parent request               block_root: 0xf7813a62238fe44f95f296f3728a1f8b0295fac6d34b7a48f2b5a778126685a1, parent_root: 0xc1d6f7596d4a9147b0f4f56f11243f5d9d02ff26cedd0136057c5d1067663a02, reason: "execution engine offline"
+Oct 27 11:20:12.767 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:12.794 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.794 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.794 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.812 DEBUG Sync RPC request completed                    id: 10/6/BackfillSync/275640, method: "DataColumnsByRange", count: 64
+Oct 27 11:20:12.824 DEBUG Sync RPC request completed                    id: 4/1/BackfillSync/275641, method: "DataColumnsByRange", count: 64
+Oct 27 11:20:12.869 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:12.903 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.904 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.921 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:12.971 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.005 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.019 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.023 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.055 DEBUG Sync RPC request completed                    id: 13/11/BackfillSync/275639, method: "DataColumnsByRange", count: 31
+Oct 27 11:20:13.082 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.106 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.117 DEBUG Sync RPC request completed                    id: 18/16/BackfillSync/275638, method: "DataColumnsByRange", count: 32
+Oct 27 11:20:13.120 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.183 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.210 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.241 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.244 DEBUG Sync RPC request completed                    id: 7/6/BackfillSync/275640, method: "BlocksByRange", count: 32
+Oct 27 11:20:13.286 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.313 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.342 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.394 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.401 DEBUG Sync RPC request completed                    id: 24/21/BackfillSync/275637, method: "DataColumnsByRange", count: 32
+Oct 27 11:20:13.405 DEBUG Sync RPC request completed                    id: 29/26/BackfillSync/275636, method: "DataColumnsByRange", count: 31
+Oct 27 11:20:13.415 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.445 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.497 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.516 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.546 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.599 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.686 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.686 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.701 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.790 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.824 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.824 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.843 DEBUG Sync RPC request completed                    id: 9/6/BackfillSync/275640, method: "DataColumnsByRange", count: 64
+Oct 27 11:20:13.899 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.902 DEBUG RPC Error                                     protocol: data_column_sidecars_by_range, err: Gracefully Disconnected, client: Lighthouse: version: v8.0.0-rc.1-1fb94ce, os_version: x86_64-linux, peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, score: -40, direction: Outgoing
+Oct 27 11:20:13.926 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:13.928 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:13.931 DEBUG Completed batch received                      epoch: 275640, blocks: 32, awaiting_batches: 1
+Oct 27 11:20:13.931 DEBUG Sync RPC request error                        id: 15/11/BackfillSync/275639, method: "DataColumnsByRange", error: RpcError(Disconnected)
+Oct 27 11:20:13.931 DEBUG Batch download failed                         batch_epoch: 275639, error: RpcError(Disconnected)
+Oct 27 11:20:13.931 DEBUG Sending backfill batch                        batch_id: Epoch(275639)
+Oct 27 11:20:13.931 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275639, peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 32/31/BackfillSync/275639, range_req_id: BackfillSync/275639, peers: 3
+Oct 27 11:20:13.931 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275639, columns: [116, 117, 20, 90, 125, 66, 50, 2], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 33/31/BackfillSync/275639, range_req_id: BackfillSync/275639, peers: 3
+Oct 27 11:20:13.931 DEBUG Requesting batch                              epoch: 275639, batch: Start Slot: 8820448, End Slot: 8820480, State: Downloading
+Oct 27 11:20:13.999 DEBUG Sync RPC request completed                    id: 12/11/BackfillSync/275639, method: "BlocksByRange", count: 31
+Oct 27 11:20:14.000 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.000 DEBUG RPC Error                                     protocol: data_column_sidecars_by_range, err: Gracefully Disconnected, client: Lighthouse: version: v8.0.0-rc.1-1fb94ce, os_version: x86_64-linux, peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, score: -40, direction: Outgoing
+Oct 27 11:20:14.000 DEBUG Sync RPC request error                        id: 19/16/BackfillSync/275638, method: "DataColumnsByRange", error: RpcError(Disconnected)
+Oct 27 11:20:14.000 DEBUG Batch download failed                         batch_epoch: 275638, error: RpcError(Disconnected)
+Oct 27 11:20:14.000 DEBUG Sending backfill batch                        batch_id: Epoch(275638)
+Oct 27 11:20:14.000 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275638, peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 35/34/BackfillSync/275638, range_req_id: BackfillSync/275638, peers: 3
+Oct 27 11:20:14.000 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275638, columns: [2, 66, 50, 20, 117, 125, 116, 90], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 36/34/BackfillSync/275638, range_req_id: BackfillSync/275638, peers: 3
+Oct 27 11:20:14.000 DEBUG Requesting batch                              epoch: 275638, batch: Start Slot: 8820416, End Slot: 8820448, State: Downloading
+Oct 27 11:20:14.006 DEBUG Sync RPC request completed                    id: 2/1/BackfillSync/275641, method: "BlocksByRange", count: 32
+Oct 27 11:20:14.029 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.035 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.105 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.115 DEBUG RPC Error                                     protocol: data_column_sidecars_by_range, err: Gracefully Disconnected, client: Lighthouse: version: v8.0.0-rc.1-1fb94ce, os_version: x86_64-linux, peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, score: -40, direction: Outgoing
+Oct 27 11:20:14.116 DEBUG Sync RPC request error                        id: 23/21/BackfillSync/275637, method: "DataColumnsByRange", error: RpcError(Disconnected)
+Oct 27 11:20:14.116 DEBUG Batch download failed                         batch_epoch: 275637, error: RpcError(Disconnected)
+Oct 27 11:20:14.116 DEBUG Sending backfill batch                        batch_id: Epoch(275637)
+Oct 27 11:20:14.116 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275637, peer: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, id: 38/37/BackfillSync/275637, range_req_id: BackfillSync/275637, peers: 3
+Oct 27 11:20:14.116 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275637, columns: [90, 50, 66], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 39/37/BackfillSync/275637, range_req_id: BackfillSync/275637, peers: 3
+Oct 27 11:20:14.116 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275637, columns: [125, 20, 117, 2, 116], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 40/37/BackfillSync/275637, range_req_id: BackfillSync/275637, peers: 3
+Oct 27 11:20:14.116 DEBUG Requesting batch                              epoch: 275637, batch: Start Slot: 8820384, End Slot: 8820416, State: Downloading
+Oct 27 11:20:14.121 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.122 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.122 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.122 DEBUG Sync RPC request completed                    id: 14/11/BackfillSync/275639, method: "DataColumnsByRange", count: 62
+Oct 27 11:20:14.137 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.140 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.146 DEBUG Peer disconnected                             peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t
+Oct 27 11:20:14.147 DEBUG RPC Error                                     protocol: data_column_sidecars_by_range, err: Gracefully Disconnected, client: Lighthouse: version: v8.0.0-rc.1-1fb94ce, os_version: x86_64-linux, peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t, score: -40, direction: Outgoing
+Oct 27 11:20:14.147 DEBUG Received disconnected message                 peer_id: 16Uiu2HAmK9CYEf3VM2LPNz5Yv8JePTSoZTpKnwtEGtyjpz9PEw6t
+Oct 27 11:20:14.147 DEBUG Sync RPC request error                        id: 30/26/BackfillSync/275636, method: "DataColumnsByRange", error: RpcError(Disconnected)
+Oct 27 11:20:14.147 DEBUG Batch download failed                         batch_epoch: 275636, error: RpcError(Disconnected)
+Oct 27 11:20:14.147 DEBUG Sending backfill batch                        batch_id: Epoch(275636)
+Oct 27 11:20:14.148 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275636, peer: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, id: 42/41/BackfillSync/275636, range_req_id: BackfillSync/275636, peers: 3
+Oct 27 11:20:14.148 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275636, columns: [20, 90, 50, 66, 2, 116, 125], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 43/41/BackfillSync/275636, range_req_id: BackfillSync/275636, peers: 3
+Oct 27 11:20:14.148 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275636, columns: [117], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 44/41/BackfillSync/275636, range_req_id: BackfillSync/275636, peers: 3
+Oct 27 11:20:14.148 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.148 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.148 DEBUG Requesting batch                              epoch: 275636, batch: Start Slot: 8820352, End Slot: 8820384, State: Downloading
+Oct 27 11:20:14.148 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.148 DEBUG Sync RPC request error                        id: 5/1/BackfillSync/275641, method: "DataColumnsByRange", error: RpcError(Disconnected)
+Oct 27 11:20:14.149 DEBUG Batch download failed                         batch_epoch: 275641, error: RpcError(Disconnected)
+Oct 27 11:20:14.149 DEBUG Sending backfill batch                        batch_id: Epoch(275641)
+Oct 27 11:20:14.149 DEBUG Sync RPC request sent                         method: "BlocksByRange", slots: 32, epoch: 275641, peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 46/45/BackfillSync/275641, range_req_id: BackfillSync/275641, peers: 3
+Oct 27 11:20:14.149 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275641, columns: [50], peer: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, id: 47/45/BackfillSync/275641, range_req_id: BackfillSync/275641, peers: 3
+Oct 27 11:20:14.149 DEBUG Sync RPC request sent                         method: "DataColumnsByRange", slots: 32, epoch: 275641, columns: [66, 125, 2, 116, 90, 20, 117], peer: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, id: 48/45/BackfillSync/275641, range_req_id: BackfillSync/275641, peers: 3
+Oct 27 11:20:14.149 DEBUG Requesting batch                              epoch: 275641, batch: Start Slot: 8820512, End Slot: 8820544, State: Downloading
+Oct 27 11:20:14.149 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.149 DEBUG Self rate limiting since there are already other requests waiting to be sent  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.227 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.240 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.241 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.330 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.341 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.347 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.352 DEBUG Sync RPC request completed                    id: 20/16/BackfillSync/275638, method: "DataColumnsByRange", count: 160
+Oct 27 11:20:14.431 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.454 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.456 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.533 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.558 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.558 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.590 DEBUG Sync RPC request completed                    id: 33/31/BackfillSync/275639, method: "DataColumnsByRange", count: 248
+Oct 27 11:20:14.637 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.660 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.663 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.742 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.762 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.763 DEBUG Sync RPC request completed                    id: 46/45/BackfillSync/275641, method: "BlocksByRange", count: 32
+Oct 27 11:20:14.766 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.794 DEBUG Sync RPC request completed                    id: 36/34/BackfillSync/275638, method: "DataColumnsByRange", count: 256
+Oct 27 11:20:14.844 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.865 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.870 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:14.951 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.973 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:14.973 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:15.054 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:15.079 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:15.079 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:15.156 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:15.157 DEBUG Sync RPC request completed                    id: 22/21/BackfillSync/275637, method: "BlocksByRange", count: 32
+Oct 27 11:20:15.180 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:15.207 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C, protocol: beacon_blocks_by_range
+Oct 27 11:20:15.258 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmQo3RYYjj4txh8vyrhNiryWEiC6fd7qCQz6y19bdQgdqE, protocol: data_column_sidecars_by_range
+Oct 27 11:20:15.263 DEBUG Sync RPC request completed                    id: 17/16/BackfillSync/275638, method: "BlocksByRange", count: 32
+Oct 27 11:20:15.278 DEBUG Sync RPC request completed                    id: 32/31/BackfillSync/275639, method: "BlocksByRange", count: 31
+Oct 27 11:20:15.284 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:15.310 DEBUG Self rate limiting                            protocol: beacon_blocks_by_range, wait_time_ms: 2051, peer_id: 16Uiu2HAmTP98TFGySikQF9DeH3KwcEk8x1jebXsXyXVU1JbWzc7C
+Oct 27 11:20:15.385 DEBUG Completed batch received                      epoch: 275639, blocks: 31, awaiting_batches: 2
+Oct 27 11:20:15.385 DEBUG Sync RPC request completed                    id: 40/37/BackfillSync/275637, method: "DataColumnsByRange", count: 160
+Oct 27 11:20:15.389 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:15.395 DEBUG Sync RPC request completed                    id: 44/41/BackfillSync/275636, method: "DataColumnsByRange", count: 31
+Oct 27 11:20:15.453 DEBUG Sync RPC request completed                    id: 35/34/BackfillSync/275638, method: "BlocksByRange", count: 32
+Oct 27 11:20:15.492 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
+Oct 27 11:20:15.544 DEBUG Completed batch received                      epoch: 275638, blocks: 32, awaiting_batches: 3
+Oct 27 11:20:15.545 DEBUG Sync RPC request completed                    id: 47/45/BackfillSync/275641, method: "DataColumnsByRange", count: 32
+Oct 27 11:20:15.593 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmTZNh9UiUdyMaKR3CV3ZaNsSVU1dHu14EN66p7i7Xtp1H, protocol: data_column_sidecars_by_range
