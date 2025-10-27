@@ -11384,3 +11384,11 @@
 2025-10-27 11:06:13 DEBUG  HEARTBEAT: Mesh low. Topic contains: 1 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
 2025-10-27 11:06:13 DEBUG  RANDOM PEERS: Got 0 peers
 2025-10-27 11:06:13 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:08:33 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:08:33 DEBUG  JOIN: Inserting 0 random peers into the mesh
+2025-10-27 11:08:33 DEBUG  Completed JOIN for topic /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:08:33 DEBUG  Subscribed to topic /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:08:33 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:08:33 DEBUG  JOIN: Inserting 0 random peers into the mesh
+2025-10-27 11:08:33 DEBUG  Completed JOIN for topic /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:08:33 DEBUG  Subscribed to topic /eth2/fd32b622/beacon_attestation_49/ssz_snappy
