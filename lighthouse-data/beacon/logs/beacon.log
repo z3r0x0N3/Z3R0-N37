@@ -7479,3 +7479,33 @@ Oct 27 11:19:21.005 DEBUG Completed state advance                       head_blo
 Oct 27 11:19:23.502 DEBUG No change in canonical head                   head: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, slot: 8820697
 Oct 27 11:19:24.001 DEBUG Running beacon chain per slot tasks           slot: Slot(8820697)
 Oct 27 11:19:24.001 DEBUG No change in canonical head                   head: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, slot: 8820697
+Oct 27 11:19:28.010 DEBUG Simulating unagg. attestation production    
+Oct 27 11:19:28.010 DEBUG Failed to simulate attestation                error: HeadBlockNotFullyVerified { beacon_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, execution_status: Optimistic(0x4de77916398448b5a36f5f70d2dc9af3c96beefc850012506ed887ec7d3dcd34) }
+Oct 27 11:19:28.590 INFO  Could not UPnP map Discovery port             error: Gateway does not support UPnP
+Oct 27 11:19:28.604 INFO  UPnP not available                          
+Oct 27 11:19:28.605 DEBUG Failed to dial peer                           peer_id: None, error: Transport error: Timeout has been reached
+Oct 27 11:19:30.002 WARN  Low peer count                                peer_count: "0"
+Oct 27 11:19:30.002 DEBUG Slot timer                                    peers: "0", finalized_root: 0xef1439ae4d8652910a55a2550e5b8e26b70f1a5c37cd604eee41e27309bc5e09, finalized_epoch: 275644, head_block: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, head_slot: 8820686, current_slot: 8820697, sync_state: Stalled
+Oct 27 11:19:30.002 INFO  Searching for peers                           peers: "0", finalized_root: 0xef1439ae4d8652910a55a2550e5b8e26b70f1a5c37cd604eee41e27309bc5e09, finalized_epoch: 275644, head_slot: 8820686, current_slot: 8820697
+Oct 27 11:19:30.605 ERROR Error during execution engine upcheck         error: HttpClient(url: http://127.0.0.1:8551/, kind: request, detail: error trying to connect: tcp connect error: Connection refused (os error 111))
+Oct 27 11:19:30.605 DEBUG Execution engine upcheck complete             state: Offline
+Oct 27 11:19:32.002 DEBUG Proposer prepare routine firing             
+Oct 27 11:19:33.005 DEBUG Advanced head state one slot                  head_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, state_slot: 8820688, current_slot: 8820697
+Oct 27 11:19:33.009 DEBUG Cached state                                  state_root: 0x43623872ce8682ce22ffdfc86f85ae642e287473a58608a19856b9e8c4391cc3, state_slot: 8820688, deleted_states: [], location: "store_hot_state"
+Oct 27 11:19:33.009 DEBUG Storing hot state summary and diffs           state_root: 0x43623872ce8682ce22ffdfc86f85ae642e287473a58608a19856b9e8c4391cc3, slot: 8820688, storage_strategy: ReplayFrom(Slot(8820672)), diff_base_state: 8820672/0x624ae279f160d2dad05f9529129ce965ff5e4b999dc696e581e64f414a30a232, previous_state_root: 0xb6873b0e4ae82e61325e580f9b2fab3df1a593cb5657fdf14063df66343ebcd3
+Oct 27 11:19:33.009 DEBUG Completed state advance                       head_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, advanced_slot: 8820688, initial_slot: 8820687
+Oct 27 11:19:35.501 DEBUG No change in canonical head                   head: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, slot: 8820698
+Oct 27 11:19:36.002 DEBUG Running beacon chain per slot tasks           slot: Slot(8820698)
+Oct 27 11:19:36.002 DEBUG No change in canonical head                   head: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, slot: 8820698
+Oct 27 11:19:40.000 DEBUG Simulating unagg. attestation production    
+Oct 27 11:19:40.000 DEBUG Failed to simulate attestation                error: HeadBlockNotFullyVerified { beacon_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, execution_status: Optimistic(0x4de77916398448b5a36f5f70d2dc9af3c96beefc850012506ed887ec7d3dcd34) }
+Oct 27 11:19:42.003 WARN  Low peer count                                peer_count: "0"
+Oct 27 11:19:42.003 DEBUG Slot timer                                    peers: "0", finalized_root: 0xef1439ae4d8652910a55a2550e5b8e26b70f1a5c37cd604eee41e27309bc5e09, finalized_epoch: 275644, head_block: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, head_slot: 8820686, current_slot: 8820698, sync_state: Stalled
+Oct 27 11:19:42.003 INFO  Searching for peers                           peers: "0", finalized_root: 0xef1439ae4d8652910a55a2550e5b8e26b70f1a5c37cd604eee41e27309bc5e09, finalized_epoch: 275644, head_slot: 8820686, current_slot: 8820698
+Oct 27 11:19:42.609 ERROR Error during execution engine upcheck         error: HttpClient(url: http://127.0.0.1:8551/, kind: request, detail: error trying to connect: tcp connect error: Connection refused (os error 111))
+Oct 27 11:19:42.609 DEBUG Execution engine upcheck complete             state: Offline
+Oct 27 11:19:44.001 DEBUG Proposer prepare routine firing             
+Oct 27 11:19:45.001 DEBUG Advanced head state one slot                  head_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, state_slot: 8820689, current_slot: 8820698
+Oct 27 11:19:45.001 DEBUG Cached state                                  state_root: 0x7f05342cb4066f1de1b80a95da9547d21a4c1c907b92047cd6949f790912257f, state_slot: 8820689, deleted_states: [], location: "store_hot_state"
+Oct 27 11:19:45.001 DEBUG Storing hot state summary and diffs           state_root: 0x7f05342cb4066f1de1b80a95da9547d21a4c1c907b92047cd6949f790912257f, slot: 8820689, storage_strategy: ReplayFrom(Slot(8820672)), diff_base_state: 8820672/0x624ae279f160d2dad05f9529129ce965ff5e4b999dc696e581e64f414a30a232, previous_state_root: 0x43623872ce8682ce22ffdfc86f85ae642e287473a58608a19856b9e8c4391cc3
+Oct 27 11:19:45.001 DEBUG Completed state advance                       head_block_root: 0x0cd2fd7a7f7efd1a3ca2a37d23508b3539283ea18bb1eeb16e905413da0bf333, advanced_slot: 8820689, initial_slot: 8820688
