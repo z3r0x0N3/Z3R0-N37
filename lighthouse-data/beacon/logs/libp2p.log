@@ -16857,3 +16857,35 @@
 2025-10-27 11:17:15 DEBUG  Gossiping IHAVE to 2 peers
 2025-10-27 11:17:15 DEBUG  RANDOM PEERS: Got 1 peers
 2025-10-27 11:17:15 DEBUG  Gossiping IHAVE to 1 peers
+2025-10-27 11:19:18 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:18 DEBUG  JOIN: Inserting 0 random peers into the mesh
+2025-10-27 11:19:18 DEBUG  Completed JOIN for topic /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:19:18 DEBUG  Subscribed to topic /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:19:18 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:18 DEBUG  JOIN: Inserting 0 random peers into the mesh
+2025-10-27 11:19:18 DEBUG  Completed JOIN for topic /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:19:18 DEBUG  Subscribed to topic /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:19:24 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:19:24 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:24 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:19:24 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:19:24 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:24 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:19:25 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:19:25 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:25 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:19:25 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:19:25 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:25 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:19:26 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:19:26 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:26 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:19:26 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:19:26 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:26 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:19:27 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:19:27 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:27 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:19:27 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:19:27 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:19:27 DEBUG  Updating mesh, new mesh: {}
