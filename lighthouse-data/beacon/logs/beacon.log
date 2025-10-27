@@ -7388,3 +7388,17 @@ Oct 27 11:17:15.150 INFO  Saved DHT state
 Oct 27 11:17:15.150 INFO  Network service shutdown                    
 Oct 27 11:17:15.172 DEBUG Persisting custody context to store           custody_context: CustodyContextSsz { validator_custody_at_head: 0, persisted_is_supernode: false, epoch_validator_custody_requirements: [] }
 Oct 27 11:17:15.172 INFO  Saved beacon chain to disk                  
+Oct 27 11:19:10.735 INFO  Lighthouse started                            version: "Lighthouse/v8.0.0-rc.1-1fb94ce"
+Oct 27 11:19:10.735 INFO  Configured network                            network_name: "sepolia"
+Oct 27 11:19:10.739 INFO  Data directory initialised                    datadir: /home/_0n3_/projects/Z3R0-N37/lighthouse-data
+Oct 27 11:19:10.740 INFO  Deposit contract                              deploy_block: 1273020, address: 0x7f02c3e3c98b133055b8b348b2ac625669ed295d
+Oct 27 11:19:10.742 WARN  Fork boundaries are not well aligned / multiples of 256  info: "This may cause issues as fork boundaries do not align with the start of sync committee period.", misaligned_forks: [(Altair, Epoch(50)), (Bellatrix, Epoch(100))]
+Oct 27 11:19:10.742 DEBUG Opening HotColdDB                           
+Oct 27 11:19:10.742 DEBUG Opening LevelDB                               hot_path: "/home/_0n3_/projects/Z3R0-N37/lighthouse-data/beacon/chain_db"
+Oct 27 11:19:10.794 DEBUG Loaded anchor info                            anchor_info: RwLock { data: AnchorInfo { anchor_slot: Slot(8820512), oldest_block_slot: Slot(8820512), oldest_block_parent: 0x236b2949244e6862332a21b2582d59661b7a7f81027ef4c5d3a09e824dec22dc, state_upper_limit: Slot(18446744073709551615), state_lower_limit: Slot(0) } }
+Oct 27 11:19:10.841 DEBUG Loaded split partial                          split: Split { slot: Slot(8820608), state_root: 0xf896b3a9d4f4160ccfd0178f1af12fdb1a048841628c5b4ececf432bbd863f12, block_root: 0x0000000000000000000000000000000000000000000000000000000000000000 }
+Oct 27 11:19:10.843 INFO  Hot-Cold DB initialized                       split.slot: 8820608, split.state_root: 0xf896b3a9d4f4160ccfd0178f1af12fdb1a048841628c5b4ececf432bbd863f12, split.block_root: 0xef1439ae4d8652910a55a2550e5b8e26b70f1a5c37cd604eee41e27309bc5e09
+Oct 27 11:19:10.843 INFO  Blob DB initialized                           path: "/home/_0n3_/projects/Z3R0-N37/lighthouse-data/beacon/blobs_db", oldest_blob_slot: Some(Slot(8820512)), oldest_data_column_slot: Some(Slot(8820512))
+Oct 27 11:19:10.843 DEBUG Attempting schema migration                   from_version: 28, to_version: 28
+Oct 27 11:19:10.843 DEBUG Store anchor info                             anchor: AnchorInfo { anchor_slot: Slot(8820512), oldest_block_slot: Slot(8820512), oldest_block_parent: 0x236b2949244e6862332a21b2582d59661b7a7f81027ef4c5d3a09e824dec22dc, state_upper_limit: Slot(18446744073709551615), state_lower_limit: Slot(0) }
+Oct 27 11:19:10.843 DEBUG Loaded execution endpoint                     endpoint: http://127.0.0.1:8551/, jwt_path: "/home/_0n3_/.ethereum/sepolia/geth/jwtsecret"
