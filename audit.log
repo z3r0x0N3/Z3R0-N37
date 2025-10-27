@@ -28,3 +28,4 @@ time=2025-10-27T05:07:54.432-05:00 level=INFO msg=Configured api=signer "audit l
 time=2025-10-27T05:33:50.470-05:00 level=INFO msg=Configured api=signer "audit log"=audit.log
 time=2025-10-27T05:38:42.193-05:00 level=INFO msg=Configured api=signer "audit log"=audit.log
 time=2025-10-27T05:41:16.064-05:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2025-10-27T08:13:18.726-05:00 level=INFO msg=Configured api=signer "audit log"=audit.log
