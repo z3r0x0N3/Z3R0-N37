@@ -5132,3 +5132,14 @@ Oct 27 11:13:46.381 DEBUG Peer sent Goodbye                             peer_id:
 Oct 27 11:13:46.382 DEBUG Peer disconnected                             peer_id: 16Uiu2HAm4VVfBR9b8oDtMUBB1RfteVj1WKcGvtZjwhPajNjTYFr6
 Oct 27 11:13:46.382 DEBUG Received disconnected message                 peer_id: 16Uiu2HAm4VVfBR9b8oDtMUBB1RfteVj1WKcGvtZjwhPajNjTYFr6
 Oct 27 11:13:46.382 DEBUG Removing peer from chain                      peer: 16Uiu2HAm4VVfBR9b8oDtMUBB1RfteVj1WKcGvtZjwhPajNjTYFr6, chain_id: 1, start_epoch: 275641, target_head_slot: 8820641, target_head_root: 0xd248986b90546c8e049cb45d8e104878f712307a580aa62130bbcd1af48bd0f4, chain_type: Finalized
+Oct 27 11:13:47.502 DEBUG No change in canonical head                   head: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, slot: 8820669
+Oct 27 11:13:48.001 DEBUG Running beacon chain per slot tasks           slot: Slot(8820669)
+Oct 27 11:13:48.002 DEBUG No change in canonical head                   head: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, slot: 8820669
+Oct 27 11:13:48.313 ERROR Error during execution engine upcheck         error: HttpClient(url: http://127.0.0.1:7545/, kind: request, detail: error trying to connect: tcp connect error: Connection refused (os error 111))
+Oct 27 11:13:48.313 DEBUG Execution engine upcheck complete             state: Offline
+Oct 27 11:13:50.468 INFO  Shutting down..                               reason: Success("Received SIGINT")
+Oct 27 11:13:50.468 DEBUG Persisting DHT to store                       number_of_peers: 50
+Oct 27 11:13:50.469 INFO  Saved DHT state                             
+Oct 27 11:13:50.469 INFO  Network service shutdown                    
+Oct 27 11:13:50.479 DEBUG Persisting custody context to store           custody_context: CustodyContextSsz { validator_custody_at_head: 0, persisted_is_supernode: false, epoch_validator_custody_requirements: [] }
+Oct 27 11:13:50.479 INFO  Saved beacon chain to disk                  
