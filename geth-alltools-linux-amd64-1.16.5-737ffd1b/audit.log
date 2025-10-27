@@ -1,0 +1,5 @@
+time=2025-10-26T13:01:07.001-05:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2025-10-26T13:02:04.478-05:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2025-10-26T13:02:04.478-05:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2025-10-26T13:05:34.544-05:00 level=INFO msg=List api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2025-10-26T13:09:34.614-05:00 level=INFO msg=List api=signer type=response data=[]

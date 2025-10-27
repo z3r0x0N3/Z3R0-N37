@@ -8,11 +8,11 @@ def main():
 
     if args.module == "ghost_comm":
         from Ghost_Comm.main import main as ghost_comm_main
-        print("Starting Ghost_Comm simulation...")
+        print("Initialising G.C.N Framework")
         ghost_comm_main()
     elif args.module == "c2":
         from c2 import main as c2_main
-        print("Starting C2 server...")
+        print("Starting Z3R0-N37 C2 server...")
         c2_main()
 
 if __name__ == "__main__":
