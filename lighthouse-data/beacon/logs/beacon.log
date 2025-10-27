@@ -7376,3 +7376,15 @@ Oct 27 11:17:13.267 DEBUG Self rate limiting due to the number of concurrent req
 Oct 27 11:17:13.391 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmNWVFgrZDBP3s56NSiDatPnMWjHmqj8rgcEgqqdg54tWb, protocol: data_column_sidecars_by_range
 Oct 27 11:17:13.560 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmNWVFgrZDBP3s56NSiDatPnMWjHmqj8rgcEgqqdg54tWb, protocol: data_column_sidecars_by_range
 Oct 27 11:17:13.662 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmNWVFgrZDBP3s56NSiDatPnMWjHmqj8rgcEgqqdg54tWb, protocol: data_column_sidecars_by_range
+Oct 27 11:17:13.813 DEBUG Self rate limiting due to the number of concurrent requests  peer_id: 16Uiu2HAmNWVFgrZDBP3s56NSiDatPnMWjHmqj8rgcEgqqdg54tWb, protocol: data_column_sidecars_by_range
+Oct 27 11:17:13.854 DEBUG Sync RPC request completed                    id: 32/30/BackfillSync/275638, method: "DataColumnsByRange", count: 256
+Oct 27 11:17:14.165 DEBUG Execution engine upcheck complete             state: Syncing
+Oct 27 11:17:14.589 DEBUG Completed batch received                      epoch: 275638, blocks: 32, awaiting_batches: 3
+Oct 27 11:17:14.589 DEBUG Sync RPC request completed                    id: 57/54/BackfillSync/275635, method: "DataColumnsByRange", count: 90
+Oct 27 11:17:14.893 DEBUG Sync RPC request completed                    id: 55/54/BackfillSync/275635, method: "BlocksByRange", count: 32
+Oct 27 11:17:15.142 INFO  Shutting down..                               reason: Success("Received SIGINT")
+Oct 27 11:17:15.149 DEBUG Persisting DHT to store                       number_of_peers: 52
+Oct 27 11:17:15.150 INFO  Saved DHT state                             
+Oct 27 11:17:15.150 INFO  Network service shutdown                    
+Oct 27 11:17:15.172 DEBUG Persisting custody context to store           custody_context: CustodyContextSsz { validator_custody_at_head: 0, persisted_is_supernode: false, epoch_validator_custody_requirements: [] }
+Oct 27 11:17:15.172 INFO  Saved beacon chain to disk                  
