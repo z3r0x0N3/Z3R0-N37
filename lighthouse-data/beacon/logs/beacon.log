@@ -5307,3 +5307,27 @@ Oct 27 11:15:57.002 DEBUG Advanced head state one slot                  head_blo
 Oct 27 11:15:57.003 DEBUG Cached state                                  state_root: 0xd182c9e992e65a2e538a596768cba1d37ddff8d36dd4cf1ab488ebc418898b2d, state_slot: 8820513, deleted_states: [], location: "store_hot_state"
 Oct 27 11:15:57.003 DEBUG Skipping storage of state already in the DB   slot: 8820513, state_root: 0xd182c9e992e65a2e538a596768cba1d37ddff8d36dd4cf1ab488ebc418898b2d
 Oct 27 11:15:57.003 DEBUG Completed state advance                       head_block_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, advanced_slot: 8820513, initial_slot: 8820512
+Oct 27 11:15:59.501 DEBUG No change in canonical head                   head: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, slot: 8820680
+Oct 27 11:16:00.000 DEBUG Running beacon chain per slot tasks           slot: Slot(8820680)
+Oct 27 11:16:00.001 DEBUG No change in canonical head                   head: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, slot: 8820680
+Oct 27 11:16:00.073 INFO  Could not UPnP map Discovery port             error: Gateway does not support UPnP
+Oct 27 11:16:00.074 DEBUG Failed to dial peer                           peer_id: None, error: Transport error: Timeout has been reached
+Oct 27 11:16:00.074 INFO  UPnP not available                          
+Oct 27 11:16:02.091 DEBUG Execution engine upcheck complete             state: Syncing
+Oct 27 11:16:04.002 DEBUG Simulating unagg. attestation production    
+Oct 27 11:16:06.001 WARN  Low peer count                                peer_count: "0"
+Oct 27 11:16:06.001 DEBUG Slot timer                                    peers: "0", finalized_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, finalized_epoch: 275641, head_block: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, head_slot: 8820512, current_slot: 8820680, sync_state: Stalled
+Oct 27 11:16:06.001 INFO  Searching for peers                           peers: "0", finalized_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, finalized_epoch: 275641, head_slot: 8820512, current_slot: 8820680
+Oct 27 11:16:08.001 DEBUG Proposer prepare routine firing             
+Oct 27 11:16:09.016 DEBUG Advanced head state one slot                  head_block_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, state_slot: 8820514, current_slot: 8820680
+Oct 27 11:16:09.033 DEBUG Cached state                                  state_root: 0x56d5782a242835054c323c475b1dc928dadcd8c99e07feb4f7def0ddff19ca24, state_slot: 8820514, deleted_states: [], location: "store_hot_state"
+Oct 27 11:16:09.033 DEBUG Skipping storage of state already in the DB   slot: 8820514, state_root: 0x56d5782a242835054c323c475b1dc928dadcd8c99e07feb4f7def0ddff19ca24
+Oct 27 11:16:09.033 DEBUG Completed state advance                       head_block_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, advanced_slot: 8820514, initial_slot: 8820513
+Oct 27 11:16:11.500 DEBUG No change in canonical head                   head: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, slot: 8820681
+Oct 27 11:16:12.001 DEBUG Running beacon chain per slot tasks           slot: Slot(8820681)
+Oct 27 11:16:12.003 DEBUG No change in canonical head                   head: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, slot: 8820681
+Oct 27 11:16:14.085 DEBUG Execution engine upcheck complete             state: Syncing
+Oct 27 11:16:16.001 DEBUG Simulating unagg. attestation production    
+Oct 27 11:16:18.001 WARN  Low peer count                                peer_count: "0"
+Oct 27 11:16:18.001 DEBUG Slot timer                                    peers: "0", finalized_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, finalized_epoch: 275641, head_block: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, head_slot: 8820512, current_slot: 8820681, sync_state: Stalled
+Oct 27 11:16:18.001 INFO  Searching for peers                           peers: "0", finalized_root: 0xf0aa53ade94f17543c0460bf5003ae83cad814b446c8e8bc49c077c66ba2f93a, finalized_epoch: 275641, head_slot: 8820512, current_slot: 8820681
