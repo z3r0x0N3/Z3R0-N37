@@ -13126,3 +13126,1018 @@
 2025-10-27 11:13:30 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
 2025-10-27 11:13:30 DEBUG  RANDOM PEERS: Got 0 peers
 2025-10-27 11:13:30 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:31 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:31 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:31 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:31 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:31 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:31 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:32 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:32 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:32 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:32 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:32 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:32 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:33 DEBUG  Failed to read from inbound stream: Failed to encode/decode message
+2025-10-27 11:13:33 DEBUG  Peer disconnected 16Uiu2HAm8U3MuRHTq72E5xeXjvhW9tuRDdQtB3fRH5UaUS25AJ1y
+2025-10-27 11:13:33 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:33 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:33 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:33 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:33 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:33 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:34 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:34 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:34 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:34 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:34 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:34 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:35 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:35 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:35 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:35 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:35 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:35 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:36 DEBUG  New peer connected 16Uiu2HAmSVEs6N1a332KqZRpH3FfqJW8zAKHsmELiheSez7yHqLQ
+2025-10-27 11:13:36 DEBUG  New peer connected 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho
+2025-10-27 11:13:36 DEBUG  New peer connected 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7
+2025-10-27 11:13:36 DEBUG  New peer connected 16Uiu2HAm4VVfBR9b8oDtMUBB1RfteVj1WKcGvtZjwhPajNjTYFr6
+2025-10-27 11:13:36 DEBUG  Protocol negotiation failed: connection lost
+2025-10-27 11:13:36 DEBUG  Peer disconnected 16Uiu2HAmSVEs6N1a332KqZRpH3FfqJW8zAKHsmELiheSez7yHqLQ
+2025-10-27 11:13:36 DEBUG  New peer type found for peer 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho Gossipsub v1.2
+2025-10-27 11:13:36 DEBUG  New peer type found for peer 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 Gossipsub v1.2
+2025-10-27 11:13:36 DEBUG  New peer type found for peer 16Uiu2HAm4VVfBR9b8oDtMUBB1RfteVj1WKcGvtZjwhPajNjTYFr6 Gossipsub v1.2
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/data_column_sidecar_84/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/data_column_sidecar_43/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/beacon_attestation_17/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/data_column_sidecar_68/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/data_column_sidecar_112/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/data_column_sidecar_10/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/beacon_attestation_16/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/data_column_sidecar_38/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/data_column_sidecar_85/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAm5btgpzjNeM2EQgX2Nw3MTykeetf4TEzq9nLqZgKQ94ho /eth2/fd32b622/data_column_sidecar_122/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_126/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_106/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_99/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_17/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_80/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_88/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_69/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_43/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_93/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_12/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_46/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_100/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_73/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_4/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_95/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_74/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_32/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_119/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_97/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_51/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_60/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_78/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_57/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_16/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_101/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_109/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_24/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_8/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_37/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_61/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_104/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/beacon_attestation_30/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_45/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_112/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_34/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_52/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_108/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/beacon_attestation_31/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_94/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_118/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_41/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_84/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_76/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_86/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_107/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_59/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_48/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_96/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_42/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_15/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_111/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_9/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_21/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_71/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_75/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_1/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_36/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_103/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_82/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_122/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_62/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_63/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_40/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_35/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_81/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_6/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_65/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_14/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_85/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_110/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_87/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_70/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_68/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_89/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_33/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_44/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_79/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_27/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_30/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_39/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_31/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_127/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_64/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_98/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_54/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_67/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_22/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_0/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_10/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_49/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_7/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_3/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_91/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_92/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_115/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_38/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_5/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_25/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_23/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_120/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_19/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_102/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_13/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_114/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_55/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_105/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_56/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_113/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_11/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_124/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_121/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_28/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_83/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_26/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_58/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_53/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_77/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_18/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_47/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_123/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_72/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJndTkCDgjQ5PVpwbebPxd2Jkr73hCfQ8QZqHkUuXbid7 /eth2/fd32b622/data_column_sidecar_29/ssz_snappy
+2025-10-27 11:13:36 DEBUG  New peer connected 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD
+2025-10-27 11:13:36 DEBUG  New peer connected 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d
+2025-10-27 11:13:36 DEBUG  New peer type found for peer 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d Gossipsub v1.2
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_61/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_17/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_46/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_56/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_79/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_45/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_109/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_25/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_106/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_35/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_52/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_23/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_110/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_124/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_36/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_69/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_99/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_71/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_6/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_48/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_80/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_86/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_120/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/beacon_attestation_1/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_55/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_87/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_93/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_33/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_126/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_92/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_102/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_42/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_89/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_3/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_49/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_96/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_103/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_114/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_34/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_88/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_37/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_59/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_101/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_62/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_14/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_16/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_60/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_73/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_72/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_4/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_12/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_67/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_9/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_30/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_94/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_105/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_8/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_111/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_10/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_11/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_26/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_63/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_22/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_68/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_31/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_77/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_98/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_121/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_19/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_53/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_28/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_97/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_91/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_27/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_107/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_74/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_83/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_15/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_43/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_24/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_78/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_29/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_100/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_84/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_32/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_108/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_44/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_64/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_38/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_65/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_119/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_82/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_76/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_47/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_95/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_58/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_41/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_7/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_21/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_127/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_18/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_75/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_57/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_0/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_1/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_5/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_51/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_81/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_115/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_13/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_123/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_54/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_122/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_112/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_39/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_118/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_85/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_104/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_70/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_40/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/beacon_attestation_0/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d /eth2/fd32b622/data_column_sidecar_113/ssz_snappy
+2025-10-27 11:13:36 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:36 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:36 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:36 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:36 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:36 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:36 DEBUG  Peer disconnected 16Uiu2HAmJd82oUnSU6KWYjSrhXZ1TRW6wY6d7ADN9GQWpJn9cW3d
+2025-10-27 11:13:36 DEBUG  New peer type found for peer 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD Gossipsub v1.2
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_112/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_107/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_28/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_39/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_111/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_21/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_108/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_67/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_3/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_118/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_11/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_49/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_127/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_109/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_0/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_13/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_43/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_59/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_83/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_87/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_106/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_22/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_63/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_55/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_95/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_120/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_81/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_58/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_93/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_60/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_65/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_4/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_115/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_102/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_27/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_70/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_75/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_6/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_8/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_122/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_30/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_62/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_110/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_51/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_37/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_45/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_69/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_94/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_99/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_119/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_85/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_126/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_54/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_46/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_10/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_105/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_124/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_88/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_89/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_103/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_34/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_104/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_78/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_47/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_33/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_41/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_72/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_36/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_17/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_42/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_15/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_73/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_52/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_100/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_23/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/beacon_attestation_17/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_92/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_24/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_74/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_71/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_114/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_14/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_25/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_84/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_38/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_53/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_79/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_57/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_61/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_96/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_29/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_44/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_121/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_19/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_35/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_97/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_82/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_68/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_26/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_18/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_12/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_91/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_48/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_16/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_31/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_9/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_123/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_40/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_76/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_98/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_101/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_7/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_113/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_32/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_80/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_1/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_64/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_86/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_77/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/beacon_attestation_16/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_5/ssz_snappy
+2025-10-27 11:13:36 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmJFE4moFgpsPUN9KmaXJ2N347Qq8pUF7gdux157e9MEgD /eth2/fd32b622/data_column_sidecar_56/ssz_snappy
+2025-10-27 11:13:37 DEBUG  Peer disconnected 16Uiu2HAmVjRNFn8yoNsTecuUoAEYaLxjZZt69BuTEyJRvAboXadw
+2025-10-27 11:13:37 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:37 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:37 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:37 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:37 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:37 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:38 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:38 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:38 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:38 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:38 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:38 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:39 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:39 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:39 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:39 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:39 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:39 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:40 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:40 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:40 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:40 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:40 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:40 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:41 DEBUG  New peer connected 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg
+2025-10-27 11:13:41 DEBUG  New peer type found for peer 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg Gossipsub v1.2
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/data_column_sidecar_101/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/data_column_sidecar_122/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/beacon_attestation_16/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/data_column_sidecar_107/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/beacon_attestation_17/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/data_column_sidecar_81/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/data_column_sidecar_113/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/data_column_sidecar_111/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/data_column_sidecar_18/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAkzi9Gc5oihvRwr6jPgCEkuf22Ry7sRvQxkjxk9vfmoKbg /eth2/fd32b622/data_column_sidecar_23/ssz_snappy
+2025-10-27 11:13:41 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:41 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:41 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:41 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:41 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:41 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:41 DEBUG  New peer connected 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1
+2025-10-27 11:13:41 DEBUG  New peer type found for peer 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 Gossipsub v1.2
+2025-10-27 11:13:41 DEBUG  New peer connected 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry
+2025-10-27 11:13:41 DEBUG  New peer connected 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_24/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_83/ssz_snappy
+2025-10-27 11:13:41 DEBUG  New peer connected 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD
+2025-10-27 11:13:41 DEBUG  New peer type found for peer 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry Gossipsub v1.2
+2025-10-27 11:13:41 DEBUG  New peer type found for peer 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA Gossipsub v1.2
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_65/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_109/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_115/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_102/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_60/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_68/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_61/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_111/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_7/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_21/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_33/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_38/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_10/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_49/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_119/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_105/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_51/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_74/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_48/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_27/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_59/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_96/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_124/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_76/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_120/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_58/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_106/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_87/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_82/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_86/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_84/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_14/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_46/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_88/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_55/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_123/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_5/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_39/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_69/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_79/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_126/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_127/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_16/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_122/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_30/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_94/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_75/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_19/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_103/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/beacon_attestation_17/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_114/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_92/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_78/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_15/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_71/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_113/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_98/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/beacon_attestation_18/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_8/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_80/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_29/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_44/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_108/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_18/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_54/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_11/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_25/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_13/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_53/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_36/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_40/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_107/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_22/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_99/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_67/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_72/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_26/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_57/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_101/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_1/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_52/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_89/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_95/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_17/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_47/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_34/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_28/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_43/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_63/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_62/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_93/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_31/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_73/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_41/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_3/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_70/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_97/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_112/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_23/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_35/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_104/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_121/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_9/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_6/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_110/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_64/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_85/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_42/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_100/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_91/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_118/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_45/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_77/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_32/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_81/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_0/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_37/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_56/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_12/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:13:41 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmHywWHRALKRnn96TF51hnt4FJ5NuxGY8YnRn9dzezKEA1 /eth2/fd32b622/data_column_sidecar_4/ssz_snappy
+2025-10-27 11:13:42 DEBUG  New peer type found for peer 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD Gossipsub v1.2
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/beacon_attestation_31/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_96/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_105/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_118/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_120/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_109/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_108/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_48/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_61/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_55/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_119/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_101/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_54/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_44/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_18/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_17/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_76/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_49/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_98/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_7/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_26/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_103/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_43/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_100/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_33/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_36/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_77/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_19/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_124/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_12/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_21/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/beacon_attestation_30/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_94/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_72/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_8/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_29/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_10/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_16/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_47/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_53/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_25/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_80/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_81/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_74/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_11/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_31/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_39/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_84/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_85/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_113/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_111/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_52/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_24/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_99/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_13/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_92/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_121/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_38/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_58/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_40/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_3/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_41/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_32/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_71/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_34/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_114/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_28/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_46/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_63/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_82/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_83/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_9/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_106/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_1/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_104/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_51/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_4/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_64/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_79/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_35/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_14/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_22/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_87/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_6/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_15/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_91/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_89/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_107/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_30/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_110/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_27/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_37/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_112/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_95/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_62/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_70/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_102/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_5/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_122/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_115/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_23/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_59/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_86/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_42/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_60/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_56/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_73/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_78/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_69/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_75/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_0/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_127/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_45/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_57/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_67/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_93/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_126/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_88/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_97/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_123/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_68/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmN9sfBjxBM5fUCjFs8f6ri43AbXcwfpkidbReFa8YNvry /eth2/fd32b622/data_column_sidecar_65/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_86/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_7/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_119/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_88/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_89/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_48/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_94/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_13/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_1/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_67/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_85/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_75/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_69/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/beacon_attestation_18/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_93/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_97/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_99/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_124/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_126/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/data_column_sidecar_14/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/beacon_aggregate_and_proof/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/sync_committee_contribution_and_proof/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/data_column_sidecar_16/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/data_column_sidecar_85/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/data_column_sidecar_123/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/beacon_attestation_16/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/data_column_sidecar_40/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/data_column_sidecar_96/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/beacon_attestation_17/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/data_column_sidecar_43/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAmD5nvEsMAKdaT7PMVZB6ZingwSR2rgv3cuA7ZAttWYfbD /eth2/fd32b622/bls_to_execution_change/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_33/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_50/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_51/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_8/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_38/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_34/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_118/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_56/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_92/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_39/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_120/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_0/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_63/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_91/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_49/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_125/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_3/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_73/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_112/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_105/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_46/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_80/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_53/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_17/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_29/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_104/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_36/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_76/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_77/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_87/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_115/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_18/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_78/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_19/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_27/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_25/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_42/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_109/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_37/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_72/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_127/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_70/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_74/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_40/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_22/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_12/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_64/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_110/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_9/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_111/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/attester_slashing/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_106/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_79/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_54/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_102/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_121/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_14/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_5/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_45/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_62/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_90/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_100/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_123/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_6/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_43/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_60/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_35/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_114/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_28/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_52/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/light_client_finality_update/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_21/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_31/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_41/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_58/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_82/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_4/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_2/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/proposer_slashing/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_113/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_47/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/voluntary_exit/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_65/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_122/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_98/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_107/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_30/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_32/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_61/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/beacon_attestation_17/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_57/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_83/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_10/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_11/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_71/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_95/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/beacon_block/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_55/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_59/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_96/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_15/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_44/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_66/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_101/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_24/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_23/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/light_client_optimistic_update/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_20/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_81/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_108/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_68/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_117/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_26/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_16/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_103/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_84/ssz_snappy
+2025-10-27 11:13:42 DEBUG  SUBSCRIPTION: Adding gossip peer to topic 16Uiu2HAky6CejSJ2BRXRG1Xh3X5xYL8FHGz4xBFa5hRedDhdHaJA /eth2/fd32b622/data_column_sidecar_116/ssz_snappy
+2025-10-27 11:13:42 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:42 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:42 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:42 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:42 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:42 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:43 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:43 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:43 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:43 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:43 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:43 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:44 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:44 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:44 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:44 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:44 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:44 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:45 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:45 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:45 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:45 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:45 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:45 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:46 DEBUG  Peer disconnected 16Uiu2HAm4VVfBR9b8oDtMUBB1RfteVj1WKcGvtZjwhPajNjTYFr6
+2025-10-27 11:13:46 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:46 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:46 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:46 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:46 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:46 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:47 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_49/ssz_snappy
+2025-10-27 11:13:47 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:47 DEBUG  Updating mesh, new mesh: {}
+2025-10-27 11:13:47 DEBUG  HEARTBEAT: Mesh low. Topic contains: 0 needs: 5 /eth2/fd32b622/beacon_attestation_50/ssz_snappy
+2025-10-27 11:13:47 DEBUG  RANDOM PEERS: Got 0 peers
+2025-10-27 11:13:47 DEBUG  Updating mesh, new mesh: {}
